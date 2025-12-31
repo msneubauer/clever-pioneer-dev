@@ -20,7 +20,7 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
       headings:
-        about: ''
+        about: 'About Me'
         education: ''
         interests: ''
     design:
@@ -35,8 +35,9 @@ sections:
 
       # Avatar customization
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+
   - block: markdown
     content:
       title: '📚 My Research'
@@ -49,6 +50,7 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
+  
   - block: collection
     id: papers
     content:
@@ -60,6 +62,7 @@ sections:
     design:
       view: article-grid
       columns: 2
+  
   - block: collection
     content:
       title: Recent Publications
@@ -70,6 +73,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  
   - block: collection
     id: talks
     content:
@@ -79,6 +83,7 @@ sections:
           - events
     design:
       view: card
+  
   - block: collection
     id: news
     content:
@@ -108,6 +113,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+  
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
