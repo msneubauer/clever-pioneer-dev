@@ -2,11 +2,14 @@
 title: Data Science Experience in Physics
 summary: Practicum course in data science for physics
 date: 2025-12-31
-featured_image:
-  filename: featured.png
+featured: true
+weight: 40
 
-course_code: "PHYS 459"
-external_link: 
+params:
+  course_number: "PHYS 459"
+
+image:
+  filename: featured.png
 
 build:
   list: hidden
