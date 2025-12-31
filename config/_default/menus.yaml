@@ -28,3 +28,7 @@ main:
     identifier: MtArEman
     url: courses/
     weight: 60
+  - name: Teaching
+    identifier: teaching
+    url: teaching/
+    weight: 70

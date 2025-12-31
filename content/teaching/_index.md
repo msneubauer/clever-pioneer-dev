@@ -1,6 +1,6 @@
 ---
-title: 'Projects'
-date: 2024-05-19
+title: 'Teaching'
+date: 2025-12-31
 type: landing
 
 design:
@@ -11,15 +11,17 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Recently Developed Courses
+      text: Select a course below to access the full materials, lectures, and resources.
       filters:
         folders:
-          - projects
+          - teaching
+        kinds:
+          - section
     design:
       view: article-grid
-      fill_image: false
       columns: 3
+      fill_image: false
       show_date: false
       show_read_time: false
       show_read_more: false
