@@ -8,7 +8,7 @@ design:
   show_title: false
 
 build:
-  list: false # this is needed to not show extraneous teaching block in collection
+  list: false   # this is needed to not show extraneous teaching block in collection
 
 sections:
   - block: collection

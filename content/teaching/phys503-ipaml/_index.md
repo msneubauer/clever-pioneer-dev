@@ -1,6 +1,6 @@
 ---
 title: Instrumental Physics Applications of Machine Learning
-summary: Instrumental Physics Applications of Machine Learning
+summary: Applied Physics with Machine Learning
 date: 2025-12-31
 featured_image:
   filename: featured.png
