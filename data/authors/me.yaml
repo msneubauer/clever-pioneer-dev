@@ -9,7 +9,7 @@ name:
   pronunciation: ""
   pronouns: ""
 role: "University of Illinois at Urbana-Champaign"
-bio: "I am a Professor of Physics and particle physicist at the University of Illinois. I hold Affiliate Professor appointments with the National Center for Supercomputing Applications, the Department of Electrical and Computer Engineering, and the Discovery Partners Institute."
+bio: "I am a Professor of Physics at the University of Illinois, Urbana-Champaign, and Affiliate Professor with the National Center for Supercomputing Applications, Department of Electrical and Computer Engineering, and Discovery Partners Institute. My research is highly interdisciplinary at the intersection of particle physics, AI/ML, and quantum information, with the aim to understand the universe at its most fundamental level, including the constituents of matter and their interactions, and exploration of novel compute paradigms."
 affiliations:
   - name: "Department of Physics"
     url: "https://physics.illinois.edu"
@@ -40,10 +40,16 @@ links:
     url: "https://neubauer-group.github.io/"
     label: "Research Group"
 interests:
-  - "Large Language Models"
-  - "Computer Vision"
-  - "Reinforcement Learning"
-  - "AI Ethics"
+  - "Particle Physics"
+  - "Particle Astrophysics"
+  - "Artificial Intelligence"
+  - "Machine Learning"
+  - "Quantum Information"
+  - "Quantum Machine Learning"
+  - "Quantum Computing"
+  - "Microelectronics"
+  - "Novel Compute Paradigms"
+  - "Scientific Software & Computing"
 education: []
 experience:
   - role: "Senior AI Research Scientist"
