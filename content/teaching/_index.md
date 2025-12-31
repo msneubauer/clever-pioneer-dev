@@ -4,10 +4,9 @@ date: 2025-12-31
 type: landing
 
 design:
-  # Section spacing
   spacing: '5rem'
+  show_title: false
 
-# Page sections
 sections:
   - block: collection
     content:
