@@ -15,7 +15,7 @@ hugoblox:
     # Site name - shown in navbar, footer, copyright, and browser title by default
     name: "Mark Neubauer"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "University of Illinois at Urbana-Champaign"
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
@@ -72,7 +72,7 @@ hugoblox:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
     radius: "md"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "compact"
+    spacing: "comfortable"
     # Avatar shape in author profiles
     avatar_shape: circle # circle | square | rounded
 
@@ -95,9 +95,9 @@ hugoblox:
     language_switcher: true
     # Call-to-action button
     cta:
-      enable: false
-      text: ""
-      url: ""
+      enable: true
+      text: "Research Group"
+      url: "https://neubauer-group.github.io"
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
