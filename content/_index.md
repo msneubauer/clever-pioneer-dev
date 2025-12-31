@@ -45,9 +45,10 @@ sections:
       text: |-
         Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy. $\sum_{i = 0}^N 2i = y$
 
-        Please reach out to collaborate 😃
+        Please reach out to collaborate 😃 
+        An equation: $$\int_{-\infty}^{\infty} e^{-x^2} dx$$.
     design:
       columns: '1'
   
