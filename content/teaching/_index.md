@@ -7,6 +7,9 @@ design:
   spacing: '5rem'
   show_title: false
 
+build:
+  list: false # this is needed to not show extraneous teaching block in collection
+
 sections:
   - block: collection
     content:
@@ -19,8 +22,8 @@ sections:
           - section
     design:
       view: article-grid
-      columns: 3
-      fill_image: false
+      columns: 2
+      fill_image: true
       show_date: false
       show_read_time: false
       show_read_more: false
