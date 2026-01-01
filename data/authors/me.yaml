@@ -96,6 +96,19 @@ experience:
       text: "CDF Collaboration"
       url: "https://cdf.fnal.gov"
       icon: "hero/sparkles"
+  - role: "Ph.D., Physics"
+    org: "University of Pennsylvania"
+    start: "1994-09-01"
+    end: "2001-06-01"
+    summary: "*Evidence for* $v_e$ *Flavor Change through Measurement of the* $^8$*B Solar Neutrino Flux at the Sudbury Neutrino Observatory*\n"
+    button:
+      text: "Thesis"
+      url: "https://github.com/msneubauer/thesis/blob/main/MarkNeubauerPhD.pdf"
+      icon: "hero/sparkles"
+  - role: "B.S., Physics"
+    org: "Kutztown University"
+    start: "1990-09-01"
+    end: "1994-06-01"
 skills: []
 languages:
   - name: "English"
