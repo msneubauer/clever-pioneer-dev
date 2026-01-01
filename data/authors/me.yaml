@@ -52,43 +52,55 @@ interests:
   - "Scientific Software & Computing"
 education: []
 experience:
-  - role: "Senior AI Research Scientist"
-    org: "Meta AI"
-    start: "2020-01-01"
-    summary: "Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.\n"
+  - role: "Professor"
+    org: "University of Illinois at Urbana-Champaign"
+    start: "2018-08-01"
+    summary: "Department of Physics\n"
     button:
-      text: "View portfolio"
-      url: "/"
-      icon: "hero/arrow-down-tray"
-  - role: "AI Research Intern"
-    org: "OpenAI"
-    start: "2019-06-01"
-    end: "2019-12-31"
-    summary: "Worked on GPT-3 scaling. Co-authored paper on prompt engineering.\n"
-skills:
-  - name: "Technical Skills"
-    items:
-      - label: "Python"
-        level: 5
-      - label: "Machine Learning"
-        level: 5
-      - label: "Cloud Computing"
-        level: 4
-  - name: "Research & Communication"
-    items:
-      - label: "Academic Writing"
-        level: 5
-      - label: "Conference Presentations"
-        level: 4
-      - label: "Grant Proposals"
-        level: 4
+      text: "Department Faculty Page"
+      url: "https://physics.illinois.edu/people/directory/profile/msn"
+      icon: "hero/sparkles"
+  - role: "Affiliate Professor"
+    org: "Discovery Partners Institute"
+    start: "2024-08-01"
+  - role: "Affiliate Professor"
+    org: "University of Illinois at Urbana-Champaign"
+    start: "2019-08-01"
+    summary: "Department of Electrical and Computer Engineering"
+  - role: "Affiliate Professor"
+    org: "National Center for Supercomputing Applications"
+    start: "2018-08-01"
+  - role: "Associate Professor"
+    org: "University of Illinois at Urbana-Champaign"
+    start: "2013-08-01"
+    end: "2018-07-16"
+    summary: "Department of Physics\n"
+  - role: "Assistant Professor"
+    org: "University of Illinois at Urbana-Champaign"
+    start: "2007-07-15"
+    end: "2013-07-16"
+    summary: "Department of Physics\n"
+    button:
+      text: "ATLAS Collaboration"
+      url: "https://atlas.cern"
+      icon: "hero/sparkles"
+  - role: "Postdoctoral Fellow"
+    org: "University of California at San Diego"
+    start: "2003-08-01"
+    end: "2007-07-15"
+  - role: "Postdoctoral Fellow"
+    org: "Massachusetts Institute of Technology"
+    start: "2001-08-01"
+    end: "2003-08-01"
+    button:
+      text: "CDF Collaboration"
+      url: "https://cdf.fnal.gov"
+      icon: "hero/sparkles"
+skills: []
 languages:
   - name: "English"
     level: 5
     label: "Native"
-  - name: "Spanish"
-    level: 4
-    label: "Fluent"
 awards:
   - title: "Best Paper Award"
     awarder: "NeurIPS"
