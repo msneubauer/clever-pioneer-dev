@@ -29,6 +29,10 @@ main:
     url: research/
     weight: 60
   - name: Teaching
-    identifier: teaching
+    identifier: kIoA-SMud
     url: teaching/
     weight: 70
+  - name: CV
+    identifier: leWy-AjU4
+    url: uploads/CV.pdf
+    weight: 80
