@@ -16,17 +16,17 @@ main:
     identifier: E2rpTV48
     url: /#news
     weight: 30
-  - name: Experience
+  - name: Appointments
     identifier: cvYrQHgF
     url: experience/
     weight: 40
-  - name: Projects
-    identifier: Z0A-Ylbc
-    url: projects/
+  - name: Awards
+    identifier: HsSA-kTsw
+    url: awards
     weight: 50
-  - name: Courses
-    identifier: MtArEman
-    url: courses/
+  - name: Research
+    identifier: Z0A-Ylbc
+    url: research/
     weight: 60
   - name: Teaching
     identifier: teaching
