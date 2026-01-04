@@ -14,17 +14,14 @@ hugoblox:
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
     name: "Mark Neubauer"
-    # Legal entity for copyright notices (defaults to name if not set)
-    organization: "University of Illinois at Urbana-Champaign"
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
     tagline: ""
-    # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "BuildLore" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "MarkSNeubauer" # Twitter/X handle for Twitter Cards (without @)
+    description: Mark Neubauer Personal Website
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -41,15 +38,11 @@ hugoblox:
       secondary: ""
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
-    colors_light: {}
+    colors_light: { primary: "", secondary: "" }
     colors_dark: {}
     # Optional: Semantic surface color overrides
     surfaces:
-      background: ""
-      foreground: ""
-      header:
-        background: ""
-        foreground: ""
+      header: {}
       footer:
         background: ""
         foreground: ""
@@ -60,9 +53,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Font: 'sans' (Inter), 'serif' (Roboto Slab), or 'native' (system fonts)
-    font: "sans"
+    font: "native"
     # Size: 'sm', 'md', 'lg', or 'xl' (affects base font size and scale)
-    size: "md"
+    size: "sm"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
@@ -72,7 +65,7 @@ hugoblox:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
     radius: "md"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "comfortable"
+    spacing: "compact"
     # Avatar shape in author profiles
     avatar_shape: circle # circle | square | rounded
 
@@ -91,7 +84,7 @@ hugoblox:
     # Feature toggles
     search: true
     theme_toggle: true
-    theme_picker: false
+    theme_picker: true
     language_switcher: false
     # Call-to-action button
     cta:
