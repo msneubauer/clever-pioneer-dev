@@ -1,0 +1,28 @@
+<style>
+  /* Target the exact class you found + common variants */
+  .max-w-7xl.mx-auto {
+    max-width: 64rem !important;           /* ← 1024px – change this value! */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Also constrain inner sections/blocks that might stretch full-width */
+  .max-w-7xl.mx-auto > *,
+  .max-w-7xl.mx-auto section,
+  .home-section,
+  .widget,
+  .block {
+    max-width: 64rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* Responsive: narrower on very large screens if desired */
+  @media (min-width: 1280px) {
+    .max-w-7xl.mx-auto {
+      max-width: 72rem !important;         /* 1152px – adjust freely */
+    }
+  }
+</style>

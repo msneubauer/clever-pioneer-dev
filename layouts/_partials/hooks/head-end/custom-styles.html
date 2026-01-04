@@ -30,4 +30,29 @@
     padding: 0 !important;
     margin: 0 !important;
   }
+
+  /* Target the navbar container – common in current Tailwind version */
+  nav.sticky,
+  .navbar,
+  header nav,
+  [class*="sticky top-0"],
+  .bg-background\/80 {   /* fallback for semi-transparent default */
+    background-color: none !important;
+    border-bottom: none !important;  /* Optional: remove border line */
+  }
+
+  /* Navbar text, links & icons */
+  nav a,
+  nav span,
+  nav button,
+  .text-muted-foreground,
+  nav .sr-only + * {
+    color: #f1f5f9 !important;   /* ← your desired text color */
+  }
+
+  /* Optional: hover states */
+  nav a:hover {
+    color: #FF5F05 !important;   /* brighter on hover */
+  }
+
 </style>
