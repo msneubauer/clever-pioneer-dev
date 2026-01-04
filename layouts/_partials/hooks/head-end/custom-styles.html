@@ -3,4 +3,31 @@
 /*    background-color: #FF5F05 !important; /* illini orange */
     background-color: #13294B !important; /* illini blue */
 }
+
+  /* Force the wrapper to match the circular shape (prevents square bg overflow) */
+  .profile-avatar,
+  .author-avatar,
+  .avatar-wrapper,
+  .avatar-container,
+  [class*="avatar"] > div {               /* Common parent divs */
+    background-color: #FF5F05 !important;  /* your desired color, e.g. #6366f1 */
+    border-radius: 9999px !important;     /* perfect circle */
+    overflow: hidden !important;          /* clips any overflow */
+  }
+
+  /* Ensure the image itself gets the bg if transparent corners exist */
+  .profile-avatar img,
+  .author-avatar img,
+  img[alt*="avatar"],
+  .avatar img {
+    background-color: #FF5F05 !important;
+    object-fit: cover !important;         /* prevents distortion */
+  }
+
+  /* Optional: Remove or reset any extra padding/margin on wrapper */
+  .profile-avatar,
+  .author-avatar {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 </style>
