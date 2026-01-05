@@ -29,7 +29,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
-    mode: system
+    mode: dark
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
     # Optional: Override theme pack colors
@@ -83,8 +83,8 @@ hugoblox:
     align: center # left | center | right
     # Feature toggles
     search: true
-    theme_toggle: true
-    theme_picker: true
+    theme_toggle: false
+    theme_picker: false
     language_switcher: false
     # Call-to-action button
     cta:
@@ -282,4 +282,3 @@ hugoblox:
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
-

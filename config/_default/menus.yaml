@@ -32,7 +32,7 @@ main:
     identifier: kIoA-SMud
     url: teaching/
     weight: 70
-  - name: CV
+  - name: Vitae
     identifier: leWy-AjU4
     url: uploads/CV.pdf
     weight: 80
