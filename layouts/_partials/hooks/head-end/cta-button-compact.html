@@ -1,0 +1,32 @@
+<style>
+  /* Force the entire blox-cta-button-list block to have no background/box */
+  .blox-cta-button-list,
+  .blox-cta-button-list > div,
+  .blox-cta-button-list .flex,
+  .blox-cta-button-list .justify-center,
+  .blox-cta-button-list .container {
+    background-color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0.25rem 0 !important;       /* very minimal vertical space */
+    margin-top: -3.75rem !important;     /* pulls button UP closer to section above – adjust to -2rem or -2.5rem if needed */
+    margin-bottom: 1.75rem !important;
+  }
+
+  /* Remove any inner wrapper padding/background */
+  .blox-cta-button-list .flex.justify-center,
+  .blox-cta-button-list .flex {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Make the button compact and fit-to-text */
+  .blox-cta-button-list .btn {
+    padding: 0.4rem 1.2rem !important;   /* tight padding – text hugs closely */
+    font-size: 0.95rem !important;       /* slightly smaller for snug look */
+    min-width: auto !important;          /* shrinks to text width */
+    border-radius: 9999px !important;    /* pill shape */
+    white-space: nowrap !important;
+  }
+</style>

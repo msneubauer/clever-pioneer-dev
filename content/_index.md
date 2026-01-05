@@ -56,14 +56,9 @@ sections:
       buttons:
         - text: See all publications
           url: /publications/
-          # Optional: add icon
-          # icon: book
     design:
-      # Make it compact and centered
-      padding: sm     # small padding
-      background:
-        color: transparent
-      align: center   # center the button
+      padding: none           # Zero padding around the button
+      align: center           # Center it
 
 #  - block: collection
 #    content:
