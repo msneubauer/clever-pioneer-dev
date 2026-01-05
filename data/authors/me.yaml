@@ -49,17 +49,13 @@ interests:
 education:
   - degree: "PhD in Physics"
     institution: "University of Pennsylvania"
-    start: "1994-09-01"
-    end: "2001-06-01"
+    year: 2001
+    icon: media/icons/penn.svg
     summary: "*Evidence for* $v_e$ *Flavor Change through Measurement of the* $^8$*B Solar Neutrino Flux at the Sudbury Neutrino Observatory*"
-    button:
-      text: "Thesis"
-      url: "https://github.com/msneubauer/thesis/blob/main/MarkNeubauerPhD.pdf"
-      icon: "hero/document"
   - degree: "Bachelor of Science in Physics"
     institution: "Kutztown University"
-    start: "1990-09-01"
-    end: "1994-06-01"
+    year: 1994
+    icon: media/icons/ku.svg
     summary: "*Summa Cum Laude*"
 experience:
   - role: "Professor"

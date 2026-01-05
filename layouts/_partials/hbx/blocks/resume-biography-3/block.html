@@ -173,6 +173,7 @@
         {{/* Education & Interests side-by-side in a grid */}}
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           <!-- Left: Education - clean vertical list -->
+          {{/* Education Section - clean list with per-item icons (university logo or cap) */}}
           {{ with $profile.education }}
             <div>
               <div class="flex items-center gap-4 mb-8">
@@ -185,23 +186,41 @@
 
               <ul class="space-y-6 list-none">
                 {{ range . }}
-                  <li class="flex flex-col space-y-1">
-                    {{ $degree := .degree | default .area }}
-                    <p class="text-lg font-bold text-gray-900 dark:text-white">{{ $degree }}</p>
-                    <p class="text-base text-gray-700 dark:text-gray-300">{{ .institution }}</p>
-                    {{ if .year }}
-                      <p class="text-sm text-gray-500 dark:text-gray-400">{{ .year }}</p>
-                    {{ else if .start }}
-                      <p class="text-sm text-gray-500 dark:text-gray-400">
-                        {{ .start }} {{ if .end }}– {{ .end }}{{ end }}
-                      </p>
-                    {{ end }}
+                  <li class="flex items-start gap-4">
+                    <!-- Icon / Logo -->
+                    <div class="flex-shrink-0 w-12 h-12 rounded-full overflow-hidden bg-white dark:bg-gray-800 ring-1 ring-gray-200 dark:ring-gray-700 flex items-center justify-center shadow-sm">
+                      {{ if .icon }}
+                        {{ $iconPath := .icon | relURL }}
+                        {{ if or (hasSuffix $iconPath ".svg") (hasSuffix $iconPath ".png") (hasSuffix $iconPath ".jpg") (hasSuffix $iconPath ".jpeg") }}
+                          <!-- Render custom university logo as image -->
+                          <img src="{{ $iconPath }}" alt="{{ .institution }} logo" class="w-10 h-10 object-contain">
+                        {{ else }}
+                          <!-- Built-in icon (e.g., academic-cap) -->
+                          {{ partial "functions/get_icon" (dict "name" .icon "attributes" "class='w-8 h-8 text-primary-600 dark:text-primary-400'") }}
+                        {{ end }}
+                      {{ else }}
+                        <!-- Default fallback graduation cap -->
+                        {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "class='w-8 h-8 text-primary-600 dark:text-primary-400'") }}
+                      {{ end }}
+                    </div>
+                    <!-- Text content -->
+                    <div class="flex-1">
+                      {{ $degree := .degree | default .area }}
+                      <p class="text-lg font-bold text-gray-900 dark:text-white">{{ $degree }}</p>
+                      <p class="text-base text-gray-700 dark:text-gray-300">{{ .institution }}</p>
+                      {{ if .year }}
+                        <p class="text-sm text-gray-500 dark:text-gray-400">{{ .year }}</p>
+                      {{ else if .start }}
+                        <p class="text-sm text-gray-500 dark:text-gray-400">
+                          {{ .start }} {{ if .end }}– {{ .end }}{{ end }}
+                        </p>
+                      {{ end }}
+                    </div>
                   </li>
                 {{ end }}
               </ul>
             </div>
           {{ end }}
-
           <!-- Right: Interests - your existing bullet list -->
           {{ with $profile.interests }}
             <div>
