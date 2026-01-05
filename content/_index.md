@@ -49,8 +49,11 @@ sections:
     design:
       view: article-grid
       columns: 3
+      spacing:
+#        padding: [0, 0, 0, 0]
+        # Top, Right, Bottom, Left
+        padding: ['40px', '0', '0', '0']
 
-# NEW: Simple button-only block (no card, no background)
   - block: cta-button-list
     content:
       buttons:
@@ -58,8 +61,8 @@ sections:
           url: /publications/
     design:
       columns: "1"
-      padding: none           # Zero padding around the button
-      align: center           # Center it
+      padding: none
+      align: center
       background:
         color: "blue-50"
 
@@ -109,8 +112,22 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: card
+#      view: card
+      view: article-grid
+      columns: 3
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+
+  - block: cta-button-list
+    content:
+      buttons:
+        - text: See all news
+          url: /blog/
+    design:
+      columns: "1"
+      padding: none
+      align: center
+      background:
+        color: "blue-50"
 ---
