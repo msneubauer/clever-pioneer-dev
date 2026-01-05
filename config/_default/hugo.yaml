@@ -6,6 +6,7 @@
 ignoreLogs:
   - missing-icon-mediaicons-penn.svg
   - missing-icon-mediaicons-ku.svg
+  - missing-icon-mediaicons-uiuc.svg
 
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
