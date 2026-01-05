@@ -57,8 +57,11 @@ sections:
         - text: See all publications
           url: /publications/
     design:
+      columns: "1"
       padding: none           # Zero padding around the button
       align: center           # Center it
+      background:
+        color: "blue-50"
 
 #  - block: collection
 #    content:
