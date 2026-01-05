@@ -6,7 +6,7 @@
 main:
   - name: Papers
     identifier: Y7xE8GHJ
-    url: /#papers
+    url: publications/
     weight: 10
   - name: Talks
     identifier: TDD2eYbF

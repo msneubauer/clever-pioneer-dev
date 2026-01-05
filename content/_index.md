@@ -50,26 +50,26 @@ sections:
       view: article-grid
       columns: 3
   
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
+#  - block: collection
+#    content:
+#      title: Recent Publications
+#      text: ''
+#      filters:
+#        folders:
+#          - publications
+#        exclude_featured: false
+#    design:
+#      view: citation
+#  
+#  - block: collection
+#    id: talks
+#    content:
+#      title: Recent & Upcoming Talks
+#      filters:
+#        folders:
+#          - events
+#    design:
+#      view: card
   
   - block: collection
     id: news
