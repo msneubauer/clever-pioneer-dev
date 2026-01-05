@@ -8,31 +8,27 @@ main:
     identifier: Y7xE8GHJ
     url: publications/
     weight: 10
-  - name: Talks
-    identifier: TDD2eYbF
-    url: /#talks
-    weight: 20
   - name: News
     identifier: E2rpTV48
     url: /#news
-    weight: 30
+    weight: 20
   - name: Experience
     identifier: cvYrQHgF
     url: experience/
-    weight: 40
+    weight: 30
   - name: Awards
     identifier: HsSA-kTsw
     url: awards
-    weight: 50
+    weight: 40
   - name: Research
     identifier: Z0A-Ylbc
     url: research/
-    weight: 60
+    weight: 50
   - name: Teaching
     identifier: kIoA-SMud
     url: teaching/
-    weight: 70
+    weight: 60
   - name: Vitae
     identifier: leWy-AjU4
     url: uploads/CV.pdf
-    weight: 80
+    weight: 70
