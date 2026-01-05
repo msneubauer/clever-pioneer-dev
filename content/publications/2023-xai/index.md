@@ -6,8 +6,8 @@ title: A detailed study of interpretability of deep neural network based top tag
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
+- me
 - A. Khot
-- M. S. Neubauer
 - A. Roy
 
 # Author notes (such as 'Equal Contribution')
@@ -31,15 +31,24 @@ publication_short: ''
 ids:
   doi: 10.1088/2632-2153/ace0a1
 
-abstract: ''
+links:
+- name: DOI
+  url: "https://iopscience.iop.org/article/10.1088/2632-2153/ace0a1"
+- name: arXiv
+  url: https://arxiv.org/abs/2210.04371
+- name: pdf
+  url: https://iopscience.iop.org/article/10.1088/2632-2153/ace0a1/pdf
+
+abstract: 'Recent developments in the methods of explainable AI (XAI) allow researchers to explore the inner workings of deep neural networks (DNNs), revealing crucial information about input-output relationships and realizing how data connects with machine learning models. In this paper we explore interpretability of DNN models designed to identify jets coming from top quark decay in high energy proton-proton collisions at the Large Hadron Collider (LHC). We review a subset of existing top tagger models and explore different quantitative methods to identify which features play the most important roles in identifying the top jets. We also investigate how and why feature importance varies across different XAI metrics, how correlations among features impact their explainability, and how latent space representations encode information as well as correlate with physically meaningful quantities. Our studies uncover some major pitfalls of existing XAI methods and illustrate how they can be overcome to obtain consistent and meaningful interpretation of these models. We additionally illustrate the activity of hidden layers as Neural Activation Pattern (NAP) diagrams and demonstrate how they can be used to understand how DNNs relay information across the layers and how this understanding can help to make such models significantly simpler by allowing effective model reoptimization and hyperparameter tuning. These studies not only facilitate a methodological approach to interpreting models but also unveil new insights about what these models learn. Incorporating these  observations into augmented model design, we propose the Particle Flow Interaction Network (PFIN) model and demonstrate how interpretability-inspired model augmentation can improve top tagging performance.'
 
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags: []
+tags:
+  - Artificial Intelligence
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
 url_pdf: ''
@@ -69,9 +78,7 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/2210.04371
+
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

@@ -7,11 +7,11 @@ title: Evidential deep learning for uncertainty quantification and out-of-distri
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
+- me
 - Ayush Khot
 - Xuwei Wang
 - Avik Roy
 - Vladimir Kindratenko
-- me
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,20 +29,29 @@ publication_types:
 
 # Publication name and optional abbreviated publication name.
 publication: '*Mach. Learn. Sci. Tech.*'
-publication_short: ''
+publication_short: 
 
 ids:
-  doi: ''
+  doi: 10.1088/2632-2153/ade51b
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://doi.org/10.1088/2632-2153/ade51b"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2501.05656"
+  - name: pdf
+    url: "https://iopscience.iop.org/article/10.1088/2632-2153/ade51b/pdf"
+
+abstract: 'Current methods commonly used for uncertainty quantification (UQ) in deep learning (DL) models utilize Bayesian methods which are computationally expensive and time-consuming. In this paper, we provide a detailed study of UQ based on evidential DL (EDL) for deep neural network models designed to identify jets in high energy proton–proton collisions at the Large Hadron Collider and explore its utility in anomaly detection (AD). EDL is a DL approach that treats learning as an evidence acquisition process designed to provide confidence (or epistemic uncertainty) about test data. Using publicly available datasets for jet classification benchmarking, we explore hyperparameter optimizations for EDL applied to the challenge of UQ for jet identification. We also investigate how the uncertainty is distributed for each jet class, how this method can be implemented for the detection of anomalies, how the uncertainty compares with Bayesian ensemble methods, and how the uncertainty maps onto latent spaces for the models. Our studies uncover some pitfalls of EDL applied to AD and a more effective way to quantify uncertainty from EDL as compared with the foundational EDL setup. These studies illustrate a methodological approach to interpreting EDL in jet classification models, providing new insights on how EDL quantifies uncertainty and detects out-of-distribution data which may lead to improved EDL methods for DL models applied to classification tasks.'
 
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags: []
+tags:
+- Artificial Intelligence
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
 url_pdf: ''
