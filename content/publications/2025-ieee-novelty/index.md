@@ -16,7 +16,7 @@ authors:
 - Corrinne Mills
 - Benjamin Parpillon
 - Farah Fahim
-- Mark S. Neubauer
+- me
 - Amit Ranjan Trivedi
 
 # Author notes (such as 'Equal Contribution')
