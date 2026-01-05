@@ -55,7 +55,7 @@ sections:
     content:
       buttons:
         - text: See all publications
-          url: /publications
+          url: /publications/
     design:
       columns: "1"
       padding: none           # Zero padding around the button

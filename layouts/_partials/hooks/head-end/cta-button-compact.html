@@ -4,3 +4,16 @@
     margin-top: -12rem !important;
   }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Find all buttons/links inside cta-button-list blocks
+    const ctaLinks = document.querySelectorAll('.blox-cta-button-list a, .blox-cta-button-list button');
+    ctaLinks.forEach(link => {
+      if (link.href && link.href.includes('/publications/')) {
+        link.setAttribute('target', '_self');
+        link.removeAttribute('rel');  // Optional: remove noopener if present
+      }
+    });
+  });
+</script>
