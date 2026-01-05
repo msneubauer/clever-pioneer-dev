@@ -45,7 +45,7 @@ sections:
         folders:
           - publications
         featured_only: true
-      count: 3  # or however many you want to show
+      count: 3
     design:
       view: article-grid
       columns: 3
@@ -55,7 +55,7 @@ sections:
     content:
       buttons:
         - text: See all publications
-          url: /publications/
+          url: /publications
     design:
       columns: "1"
       padding: none           # Zero padding around the button
