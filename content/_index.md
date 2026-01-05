@@ -39,17 +39,32 @@ sections:
         shape: circle # Options: circle (default), square, rounded  
 
   - block: collection
-    id: papers
     content:
       title: Featured Publications
       filters:
         folders:
           - publications
         featured_only: true
+      count: 3  # or however many you want to show
     design:
       view: article-grid
       columns: 3
-  
+
+# NEW: Simple button-only block (no card, no background)
+  - block: cta-button-list
+    content:
+      buttons:
+        - text: See all publications
+          url: /publications/
+          # Optional: add icon
+          # icon: book
+    design:
+      # Make it compact and centered
+      padding: sm     # small padding
+      background:
+        color: transparent
+      align: center   # center the button
+
 #  - block: collection
 #    content:
 #      title: Recent Publications
