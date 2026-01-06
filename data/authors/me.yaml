@@ -51,7 +51,8 @@ education:
     institution: "University of Pennsylvania"
     start: "1994-09-01"
     end: "2001-06-01"
-    summary: "*Evidence for* $v_e$ *Flavor Change through Measurement of the* $^8$*B Solar Neutrino Flux at the Sudbury Neutrino Observatory*"
+    summary: |
+      Thesis title: "*Evidence for* $v_e$ *Flavor Change through Measurement of the* $^8$*B Solar Neutrino Flux at the Sudbury Neutrino Observatory*"
     button:
       text: "Ph.D. Thesis"
       url: "https://github.com/msneubauer/thesis/blob/main/MarkNeubauerPhD.pdf"
