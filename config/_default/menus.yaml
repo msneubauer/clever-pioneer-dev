@@ -6,7 +6,7 @@
 main:
   - name: Papers
     identifier: Y7xE8GHJ
-    url: publications/
+    url: /publications/
     weight: 10
   - name: News
     identifier: E2rpTV48

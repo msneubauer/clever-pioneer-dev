@@ -50,8 +50,6 @@ sections:
       view: article-grid
       columns: 3
       spacing:
-#        padding: [0, 0, 0, 0]
-        # Top, Right, Bottom, Left
         padding: ['40px', '0', '0', '0']
 
   - block: cta-button-list
@@ -65,27 +63,6 @@ sections:
       align: center
       background:
         color: "blue-50"
-
-#  - block: collection
-#    content:
-#      title: Recent Publications
-#      text: ''
-#      filters:
-#        folders:
-#          - publications
-#        exclude_featured: false
-#    design:
-#      view: citation
-#  
-#  - block: collection
-#    id: talks
-#    content:
-#      title: Recent & Upcoming Talks
-#      filters:
-#        folders:
-#          - events
-#    design:
-#      view: card
   
   - block: collection
     id: news
@@ -93,11 +70,9 @@ sections:
       title: Recent News
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: blog
       # Choose how many pages you would like to display (0 = all pages)
       count: 10
-      # Filter on criteria
       filters:
         author: ''
         category: ''
@@ -111,11 +86,8 @@ sections:
       # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
-#      view: card
       view: article-grid
       columns: 3
-      # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
 
