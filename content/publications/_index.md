@@ -16,10 +16,13 @@ sections:
     design:
       view: article-grid
       columns: 3
+      spacing:
+        # Top, Right, Bottom, Left
+        padding: ['40px', '0', '0', '0']
   
   - block: collection
     content:
-      title: Recent Publications
+      title: Selected Publications
       text: ''
       count: 0 # Set count to 0 to display all items
       filters:
@@ -28,6 +31,20 @@ sections:
         exclude_featured: false
     design:
       view: citation
+      spacing:
+        padding: [0, 0, 0, 0]
+
+  - block: cta-button-list
+    content:
+      buttons:
+        - text: See all publications
+          url: /uploads/pubs.pdf
+    design:
+      columns: "1"
+      padding: none
+      align: center
+      background:
+        color: "blue-50"
 
 # View.
 #view: citation
