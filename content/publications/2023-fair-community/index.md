@@ -50,7 +50,15 @@ publication: '*Scientific Data*'
 publication_short: ''
 
 ids:
-  doi: ''
+  doi: '10.1038/s41597-023-02298-6'
+
+links:
+  - name: DOI
+    url: "https://doi.org/10.1038/s41597-023-02298-6"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2210.08973"
+  - name: pdf
+    url: "https://www.nature.com/articles/s41597-023-02298-6.pdf"
 
 abstract: ''
 

@@ -1,13 +1,12 @@
 ---
-title: Observation and measurement of Higgs boson decays to $WW^*$ with the ATLAS
-  detector
+title: Observation and measurement of Higgs boson decays to $WW^*$ with the ATLAS etector
 
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- G. Aad \em et al. [ATLAS Collaboration]
+- ATLAS Collaboration
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -30,7 +29,32 @@ publication_short: ''
 ids:
   doi: 10.1103/PhysRevD.92.012006
 
-abstract: ''
+links:
+  - name: DOI
+    url: "http://doi.org/10.1103/PhysRevD.92.012006"
+  - name: arXiv
+    url: "https://arxiv.org/abs/1412.2641"
+  - name: pdf
+    url: "https://arxiv.org/pdf/1412.2641.pdf"
+
+abstract: 'We report the observation of Higgs boson decays to $\WWs$ based on an excess over background
+of $\HwwSignif{obs}{all}$ standard deviations in the dilepton final state, where the
+Standard Model expectation is $\HwwSignif{exp}{all}$ standard deviations.  Evidence for the
+vector-boson fusion (VBF) production process is obtained with a significance of
+$\HwwSignif{obs}{VX}$ standard deviations.  The results are obtained from a data sample
+corresponding to an integrated luminosity of $\HwwLumi{0}{0}\ifb$ from $\sqrt{s}{\EQ}7$ and
+$8\TeV$ $pp$ collisions recorded by the ATLAS detector at the LHC.  For a Higgs boson mass
+of $\HwwHiggsMass{ATLAS}\GeV$, the ratio of the measured value to the expected value of the
+total production cross section times branching fraction is
+$1.09^{+0.16}_{-0.15}\,\textrm{(stat)}^{+0.17}_{-0.14}\,\textrm{(syst)}$.  The
+corresponding ratios for the gluon fusion and vector-boson fusion production mechanisms are
+$1.02{\PM}0.19\,\textrm{(stat)}\,^{+0.22}_{-0.18}\,\textrm{(syst)}$ and
+$1.27\,^{+0.44}_{-0.40}\,\textrm{(stat)}\,^{+0.30}_{-0.21}\,\textrm{(syst)}$, respectively.
+At $\sqrt{s}{\EQ}8\TeV$, the total production cross sections are measured to be
+$\sigma(gg{\TO}\HWW) = 4.6{\PM}0.9\,\textrm{(stat)}\,^{+0.8}_{-0.7}\,\textrm{(syst)}\pb$ and
+$\sigma(\VBF~\HWW){\EQ}0.51\,^{+0.17}_{-0.15}\,\textrm{(stat)}\,^{+0.13}_{-0.08}\,\textrm{(syst)}\pb$.
+The fiducial cross section is determined for the gluon-fusion
+process in exclusive final states with zero or one associated jet.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -68,9 +92,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/1412.2641
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

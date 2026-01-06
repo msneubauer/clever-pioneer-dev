@@ -6,7 +6,7 @@ title: A Roadmap for HEP Software and Computing R&D for the 2020s
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- \em et al. [HEP Software Foundation] J. Albrecht
+- HEP Software Foundation
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,7 +29,15 @@ publication_short: ''
 ids:
   doi: 10.1007/s41781-018-0018-8
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://doi.org/10.1007/s41781-018-0018-8"
+  - name: arXiv
+    url: "https://arxiv.org/abs/1712.06982"
+  - name: pdf
+    url: "https://link.springer.com/content/pdf/10.1007/s41781-018-0018-8.pdf"
+
+abstract: 'Particle physics has an ambitious and broad experimental programme for the coming decades. This programme requires large investments in detector hardware, either to build new facilities and experiments, or to upgrade existing ones. Similarly, it requires commensurate investment in the R&D of software to acquire, manage, process, and analyse the shear amounts of data to be recorded. In planning for the HL-LHC in particular, it is critical that all of the collaborating stakeholders agree on the software goals and priorities, and that the efforts complement each other. In this spirit, this white paper describes the R&D activities required to prepare for this software upgrade.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -67,9 +75,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: URL
-  url: https://doi.org/10.1007/s41781-018-0018-8
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

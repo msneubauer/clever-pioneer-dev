@@ -6,7 +6,7 @@ title: The ATLAS Fast TracKer system
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- \textitet~al. [ATLAS Collaboration] G. Aad
+- ATLAS Collaboration
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,10 +29,18 @@ publication_short: ''
 ids:
   doi: 10.1088/1748-0221/16/07/P07006
 
+links:
+  - name: DOI
+    url: "https://doi.org/10.1088/1748-0221/16/07/P07006"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2101.05078"
+  - name: pdf
+    url: "https://arxiv.org/pdf/2101.05078.pdf"
+
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'The ATLAS Fast TracKer (FTK) was designed to provide full tracking for the ATLAS high-level trigger by using pattern recognition based on Associative Memory (AM) chips and fitting in high-speed field programmable gate arrays. The tracks found by the FTK are based on inputs from all modules of the pixel and silicon microstrip trackers. The as-built FTK system and components are described, as is the online software used to control them while running in the ATLAS data acquisition system. Also described is the simulation of the FTK hardware and the optimization of the AM pattern banks. An optimization for long-lived particles with large impact parameter values is included. A test of the FTK system with the data playback facility that allowed the FTK to be commissioned during the shutdown between Run 2 and Run 3 of the LHC is reported. The resulting tracks from part of the FTK system covering a limited $\eta$-$\phi$ region of the detector are compared with the output from the FTK simulation. It is shown that FTK performance is in good agreement with the simulation.'
 
 tags: []
 
@@ -67,9 +75,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/2101.05078
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

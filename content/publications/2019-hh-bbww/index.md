@@ -1,5 +1,5 @@
 ---
-title: Search for Higgs boson pair production in the $bbarbWW^*$ decay mode at $sqrts=13$
+title: Search for Higgs boson pair production in the $b\bar{b}WW^*$ decay mode at $\sqrt{s}=13$
   TeV with the ATLAS detector
 
 # Authors
@@ -7,7 +7,7 @@ title: Search for Higgs boson pair production in the $bbarbWW^*$ decay mode at $
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- M. Aaboud \em et al. [ATLAS Collaboration]
+- ATLAS Collaboration
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -30,7 +30,17 @@ publication_short: ''
 ids:
   doi: 10.1007/JHEP04(2019)092
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://doi.org/10.1007/JHEP04%282019%29092"
+  - name: arXiv
+    url: "https://arxiv.org/abs/1811.04671"
+  - name: pdf
+    url: "https://link.springer.com/content/pdf/10.1007/JHEP04%282019%29092.pdf"
+
+abstract: 'A search for Higgs boson pair production in the $b\bar{b}WW^{\ast}$ decay mode is performed in the $b\bar{b}\ell\nu qq$ final state using 36.1 fb$^{-1}$ of proton-proton collision data at a centre-of-mass energy of 13 TeV recorded with the ATLAS detector at the Large Hadron Collider. No evidence of events beyond the background expectation is found. 
+Upper limits on the  non-resonant $pp \to HH$  production cross section of 10 pb and on the resonant production  cross section  as a function of the $HH$ invariant mass are 
+obtained. Resonant production limits are set for scalar and spin-2 graviton hypotheses in the mass range 500 to 3000 GeV.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -68,9 +78,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/1811.04671
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

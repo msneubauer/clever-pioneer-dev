@@ -1,6 +1,5 @@
 ---
-title: Computational Frontier Topical Group Report Storage and Processing Resource
-  Access
+title: Computational Frontier Topical Group Report Storage and Processing Resource Access
 
 # Authors
 # A YAML list of author names
@@ -19,7 +18,7 @@ authors:
 - M. Lin
 - C. Maltzahn
 - S. McKee
-- M. S. Neubauer
+- me
 - O. Rind
 - O, Shadura
 - N. Tran
@@ -49,7 +48,15 @@ publication_short: ''
 ids:
   doi: 10.1007/s41781-023-00097-7
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://link.springer.com/article/10.1007/s41781-023-00097-7"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2209.08868"
+  - name: pdf
+    url: "https://link.springer.com/content/pdf/10.1007/s41781-023-00097-7.pdf"
+
+abstract: 'Research in the data-intensive discipline of high energy physics (HEP) often relies on domain-specific digital contents. Reproducibility of research relies on proper preservation of these digital objects. This paper reflects on the interpretation of principles of Findability, Accessibility, Interoperability, and Reusability (FAIR) in such context and demonstrates its implementation by describing the development of an end-to-end support infrastructure for preserving and accessing Universal FeynRules Output (UFO) models guided by the FAIR principles. UFO models are custom-made python libraries used by the HEP community for Monte Carlo simulation of collider physics events. Our framework provides simple but robust tools to preserve and access the UFO models and corresponding metadata in accordance with the FAIR principles.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -87,9 +94,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/2209.08868
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

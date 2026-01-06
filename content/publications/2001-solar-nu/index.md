@@ -1,13 +1,12 @@
 ---
-title: Measurement of the rate of $ν_e+d to p+p+e^-$ interactions produced by $^8B$
-  solar neutrinos at the Sudbury Neutrino Observatory
+title: Measurement of the rate of $\nu_e + d \to p+p + e^-$ interactions produced by $^8$B solar neutrinos at the Sudbury Neutrino Observatory
 
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Ahmad \em et al. [SNO Collaboration] Q. R.
+- SNO Collaboration
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -30,7 +29,16 @@ publication_short: ''
 ids:
   doi: 10.1103/PhysRevLett.87.071301
 
-abstract: ''
+links:
+  - name: DOI
+    url: "http://doi.org/10.1103/PhysRevLett.87.071301"
+  - name: arXiv
+    url: "https://arxiv.org/abs/nucl-ex/0106015"
+  - name: pdf
+    url: "https://arxiv.org/pdf/nucl-ex/0106015.pdf"
+
+abstract: ' Solar neutrinos from the decay of $^8$B have been detected at the Sudbury Neutrino Observatory (SNO) via the charged current (CC) reaction on deuterium and by the elastic scattering (ES) of electrons.  The CC reaction is sensitive exclusively to $\nu_e$, while the ES reaction also has a small sensitivity to $\nu_{\mu}$ and $\nu_{\tau}$. The flux of $\nu_e$ from $^8$B decay measured by the CC reaction rate is  $\phi^{\rm CC}(\nu_e) = 1.75 \pm 0.07~({\rm stat.})^{+0.12}_{-0.11}~({\rm sys.}) \pm 0.05~({\rm theor.}) \times 10^6~{\rm cm}^{-2} {\rm s}^{-1}$. Assuming no flavor transformation, the flux inferred from the ES reaction rate is  $\phi^{\rm ES}(\nu_x)=2.39\pm 0.34~({\rm stat.}) ^{+0.16}_{-0.14}~({\rm sys.}) \times 10^6~{\rm cm}^{-2} {\rm s}^{-1}$. Comparison of $\phi^{\rm CC}(\nu_e)$ to the Super-Kamiokande Collaboration precision value of $\phi^{\rm ES}(\nu_x)$  yields a $3.3\sigma$ difference, assuming the systematic uncertainties are normally distributed, providing evidence that there is a non-electron flavor active neutrino component in the solar flux.  The total flux of active  $^8$B 
+neutrinos is thus determined to be $5.44\pm 0.99 \times 10^6~{\rm cm}^{-2} {\rm s}^{-1}$, in close agreement with the predictions of solar models.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -68,9 +76,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/nucl-ex/0106015
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

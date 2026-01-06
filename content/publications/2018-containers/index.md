@@ -13,7 +13,7 @@ authors:
 - Hon Wai Leong
 - Eliu A. Huerta
 - David Lesny
-- Mark S. Neubauer
+- me
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -34,9 +34,17 @@ publication: '*CoRR*'
 publication_short: ''
 
 ids:
-  doi: ''
+  doi: '10.1145/3219104.3219145'
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://doi.org/10.1145/3219104.3219145"
+  - name: arXiv
+    url: "https://arxiv.org/abs/1808.00556"
+  - name: pdf
+    url: "https://dl.acm.org/doi/epdf/10.1145/3219104.3219145"
+
+abstract: 'Software container solutions have revolutionized application devel-opment approaches by enabling lightweight platform abstractionswithin the so-called “containers.” Several solutions are being ac-tively developed in attempts to bring the benefits of containers tohigh-performance computing systems with their stringent secu-rity demands on the one hand and fundamental resource sharingrequirements on the other.In this paper, we discuss the benefits and short-comings of suchsolutions when deployed on real HPC systems and applied to pro-duction scientific applications. We highlight use cases that are eitherenabled by or significantly benefit from such solutions. We discussthe efforts by HPC system administrators and support staff to sup-port users of these type of workloads on HPC systems not initiallydesigned with these workloads in mind focusing on the NCSA BlueWaters system.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -74,11 +82,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/1808.00556
-- name: URL
-  url: http://arxiv.org/abs/1808.00556
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

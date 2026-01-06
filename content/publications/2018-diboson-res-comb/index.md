@@ -8,7 +8,7 @@ title: Combination of searches for heavy resonances decaying into bosonic and le
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- M. Aaboud \em et al. [ATLAS Collaboration]
+- ATLAS Collaboration
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -31,7 +31,15 @@ publication_short: ''
 ids:
   doi: 10.1103/PhysRevD.98.052008
 
-abstract: ''
+links:
+  - name: DOI
+    url: "10.48550/arXiv.1808.02380"
+  - name: arXiv
+    url: "https://arxiv.org/abs/1808.02380"
+  - name: pdf
+    url: "https://doi.org/10.1103/PhysRevD.98.052008"
+
+abstract: 'Searches for new heavy resonances decaying into different pairings of $W$, $Z$, or Higgs bosons, as well as directly into leptons, are presented using a data sample corresponding to 36.1 fb$^{-1}$ of $pp$ collisions at $\sqrt{s}$ = 13~\TeV\ collected during 2015 and 2016 with the ATLAS detector at the CERN Large Hadron Collider. Analyses selecting bosonic decay modes in the $qqqq$, $\nu\nu qq$, $\ell\nu qq$, $\ell\ell qq$, $\ell\nu\ell\nu$, $\ell\ell\nu\nu$, $\ell\nu\ell\ell$, $\ell\ell\ell\ell$, $qqbb$, $\nu\nu bb$, $\ell\nu bb$, and $\ell\ell bb$ final states are combined, searching for a narrow-width resonance. Likewise, analyses selecting the leptonic $\ell\nu$ and $\ell\ell$ final states are also combined. These two sets of analyses are then further combined. No significant deviation from the Standard Model predictions is observed. Three benchmark models are tested: a model predicting the existence of a new heavy scalar singlet, a simplified model predicting a heavy vector-boson triplet, and a bulk Randall--Sundrum model with a heavy spin-2 Kaluza--Klein excitation of the graviton. Cross-section limits are set at the 95\% confidence level using an asymptotic approximation and are compared with predictions for the benchmark models. These limits are also expressed in terms of constraints on couplings of the heavy vector-boson triplet to quarks, leptons, and the Higgs boson. The data exclude a heavy vector-boson triplet with mass below 5.5~\TeV\ in a weakly coupled scenario and 4.5~\TeV\ in a strongly coupled scenario, as well as a Kaluza--Klein graviton with mass below 2.3~\TeV.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -69,9 +77,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/1808.02380
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

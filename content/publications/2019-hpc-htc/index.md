@@ -10,7 +10,7 @@ authors:
 - E. A. Huerta
 - R. Haas
 - J. Jha
-- M. S. Neubauer
+- me
 - D. S. Katz
 
 # Author notes (such as 'Equal Contribution')
@@ -34,7 +34,15 @@ publication_short: ''
 ids:
   doi: 10.1007/s41781-019-0022-7
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://link.springer.com/article/10.1007/s41781-019-0022-7"
+  - name: arXiv
+    url: "https://arxiv.org/abs/1810.03056"
+  - name: pdf
+    url: "https://link.springer.com/content/pdf/10.1007/s41781-019-0022-7.pdf"
+
+abstract: 'The advent of experimental science facilities—instruments and observatories, such as the Large Hadron Collider, the Laser Interferometer Gravitational Wave Observatory, and the upcoming Large Synoptic Survey Telescope —has brought about challenging, large-scale computational and data processing requirements. Traditionally, the computing infrastructure to support these facility’s requirements were organized into separate infrastructure that supported their high-throughput needs and those that supported their high-performance computing needs. We argue that to enable and accelerate scientific discovery at the scale and sophistication that is now needed, this separation between high-performance computing and high-throughput computing must be bridged and an integrated, unified infrastructure provided. In this paper, we discuss several case studies where such infrastructure has been implemented. These case studies span different science domains, software systems, and application requirements as well as levels of sustainability. A further aim of this paper is to provide a basis to determine the common characteristics and requirements of such infrastructure, as well as to begin a discussion of how best to support the computing requirements of existing and future experimental science facilities.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -72,9 +80,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/1810.03056
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

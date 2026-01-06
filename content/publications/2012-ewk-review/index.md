@@ -7,7 +7,7 @@ title: Tests of the Standard Electroweak Model at the Energy Frontier
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - John D Hobbs
-- Mark S. Neubauer
+- me
 - Scott Willenbrock
 
 # Author notes (such as 'Equal Contribution')
@@ -29,9 +29,17 @@ publication: '*Rev. Mod. Phys.*'
 publication_short: ''
 
 ids:
-  doi: ''
+  doi: '10.1103/RevModPhys.84.1477'
 
-abstract: ''
+links:
+  - name: DOI
+    url: "http://doi.org/10.1103/RevModPhys.84.1477"
+  - name: arXiv
+    url: "https://arxiv.org/abs/1003.5733"
+  - name: pdf
+    url: "https://journals.aps.org/rmp/pdf/10.1103/RevModPhys.84.1477"
+
+abstract: 'In this review, tests of standard electroweak (EW) theory at the highest available energies as a precursor to the Large Hadron Collider (LHC) era are summarized. The primary focus is on the published results (as of March 2010) from proton-antiproton collisions at $\sqrt{s} =1.96$ TeV at the Fermilab Tevatron collected using the CDF and D0 detectors. After presenting an overview of the EW sector of the standard model, a summary of experimental tests of EW theory as of March 2010 is provided. These include gauge boson properties and self-couplings, tests of EW physics from the top-quark sector, and searches for the Higgs boson.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -69,9 +77,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/1003.5733
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

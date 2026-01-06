@@ -6,7 +6,19 @@ title: A FAIR and AI-ready Higgs boson decay dataset
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- \textitet~al. Y.Chen
+- Yifan Chen
+- E. A. Huerta
+- Javier Duarte
+- Philip Harris
+- Daniel S. Katz
+- me
+- Daniel Diaz
+- Farouk Mokhtar
+- Raghav Kansal
+- Sang Eon Park
+- Volodymyr V. Kindratenko
+- Zhizhen Zhao
+- Roger Rusack
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -27,9 +39,19 @@ publication: '*Sci. Data*'
 publication_short: ''
 
 ids:
-  doi: ''
+  doi: 'https://doi.org/10.1038/s41597-021-01109-0'
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://www.nature.com/articles/s41597-021-01109-0"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2108.02214"
+  - name: pdf
+    url: "https://www.nature.com/articles/s41597-021-01109-0.pdf"
+
+abstract: 'To enable the reusability of massive scientific datasets by humans and machines, researchers aim to adhere to the principles of findability, accessibility, interoperability, and reusability (FAIR) for data and artificial intelligence (AI) models. This article provides a domain-agnostic, step-by-step assessment guide to evaluate whether or not a given dataset meets these principles. We demonstrate how to use this guide to evaluate the FAIRness of an open simulated dataset produced by the CMS Collaboration at the CERN Large Hadron Collider. This dataset consists of Higgs boson decays and quark and gluon background, and is available through the CERN Open Data Portal. We use additional available tools to assess the FAIRness of this dataset, and incorporate feedback from members of the FAIR community to validate our results. This article is accompanied by a Jupyter notebook to visualize and explore this dataset. This study marks the first in a planned series of articles that will guide scientists in the creation of FAIR AI models and datasets in high energy particle physics.
+
+'
 
 # Summary. An optional shortened abstract.
 summary: ''

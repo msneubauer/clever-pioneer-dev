@@ -6,7 +6,65 @@ title: Enabling Real-time Multi-messenger Astrophysics Discoveries with Deep Lea
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- E. A. Huerta \em et al.
+- E. A. Huerta
+- Gabrielle Allen
+- Igor Andreoni
+- Javier M. Antelis
+- Etienne Bachelet
+- G. Bruce Berriman
+- Federica B. Bianco
+- Rahul Biswas
+- Matias Carrasco Kind
+- Kyle Chard, Minsik Cho
+- Philip S. Cowperthwaite
+- Zachariah B. Etienne
+- Maya Fishbach
+- Francisco Forster
+- Daniel George
+- Tom Gibbs
+- Matthew Graham
+- William Gropp
+- Robert Gruendl
+- Anushri Gupta
+- Roland Haas
+- Sarah Habib
+- Elise Jennings
+- Margaret W. G. Johnson
+- Erik Katsavounidis
+- Daniel S. Katz
+- Asad Khan
+- Volodymyr Kindratenko
+- William T. C. Kramer
+- Xin Liu
+- Ashish Mahabal
+- Zsuzsa Marka
+- Kenton McHenry
+- J. M. Miller
+- Claudia Moreno
+- me
+- Steve Oberlin
+- Alexander R. Olivas Jr
+- Donald Petravick
+- Adam Rebei
+- Shawn Rosofsky
+- Milton Ruiz
+- Aaron Saxton
+- Bernard F. Schutz
+- Alex Schwing
+- Ed Seidel
+- Stuart L. Shapiro
+- Hongyu Shen
+- Yue Shen
+- Leo P. Singer
+- Brigitta M. Sipocz
+- Lunan Sun
+- John Towns
+- Antonios Tsokaros
+- Wei Wei
+- Jack Wells
+- Timothy J. Williams
+- Jinjun Xiong
+- Zhizhen Zhao
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,7 +87,15 @@ publication_short: ''
 ids:
   doi: 10.1038/s42254-019-0097-4
 
-abstract: ''
+links:
+  - name: DOI
+    url: "http://doi.org/10.1038/s42254-019-0097-4"
+  - name: arXiv
+    url: "https://arxiv.org/abs/1911.11779"
+  - name: pdf
+    url: "https://arxiv.org/pdf/1911.11779.pdf"
+
+abstract: 'Multi-messenger astrophysics is a fast-growing, interdisciplinary field that combines data, which vary in volume and speed of data processing, from many different instruments that probe the Universe using different cosmic messengers: electromagnetic waves, cosmic rays, gravitational waves and neutrinos. In this Expert Recommendation, we review the key challenges of real-time observations of gravitational wave sources and their electromagnetic and astroparticle counterparts, and make a number of recommendations to maximize their potential for scientific discovery. These recommendations refer to the design of scalable and computationally efficient machine learning algorithms; the cyber-infrastructure to numerically simulate astrophysical sources, and to process and interpret multi-messenger astrophysics data; the management of gravitational wave detections to trigger real-time alerts for electromagnetic and astroparticle follow-ups; a vision to harness future developments of machine learning and cyber-infrastructure resources to cope with the big-data requirements; and the need to build a community of experts to realize the goals of multi-messenger astrophysics.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -67,9 +133,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/1911.11779
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

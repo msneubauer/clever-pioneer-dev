@@ -1,13 +1,13 @@
 ---
-title: Search for charged Higgs bosons decaying via $H^+ to τ ν$ in top quark pair
-  events using $pp$ collision data at $sqrts=7$ TeV with the ATLAS detector
+title: Search for charged Higgs bosons decaying via $H^+ \to \tau\nu$ in top quark pair
+  events using $pp$ collision data at $\sqrt{s}=7$ TeV with the ATLAS detector
 
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- G. Aad \em et al. [ATLAS Collaboration]
+- ATLAS Collaboration
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -30,7 +30,27 @@ publication_short: ''
 ids:
   doi: 10.1007/JHEP06(2012)039
 
-abstract: ''
+links:
+  - name: DOI
+    url: "http://doi.org/10.1007/JHEP06(2012)039"
+  - name: arXiv
+    url: "https://arxiv.org/abs/1204.2760"
+  - name: pdf
+    url: "https://arxiv.org/pdf/1204.2760.pdf"
+
+abstract: 'The results of a search for charged Higgs bosons are presented.
+The analysis is based on 4.6 fb$^{-1}$ of proton-proton collision data at
+$\sqrt{s}=7$~TeV collected by the ATLAS experiment at the Large Hadron
+Collider, using top quark pair events with a $\tau$ lepton in the final
+state. The data are consistent with the expected background from Standard
+Model processes. Assuming that the branching ratio of the charged Higgs
+boson to a $\tau$ lepton and a neutrino is 100\%, this leads to upper
+limits on the branching ratio of top quark decays to a $b$ quark and a
+charged Higgs boson between 5\% and 1\% for charged Higgs boson masses ranging from
+90~GeV to 160~GeV, respectively. In the context of the $m_h^{\text{max}}$
+scenario of the MSSM, $\tan\beta$ above 12--26, as well as between 1
+and 2--6, can be excluded for charged Higgs boson masses between 90~GeV
+and 150~GeV.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -68,9 +88,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/1204.2760
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

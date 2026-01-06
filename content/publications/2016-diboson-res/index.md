@@ -1,5 +1,5 @@
 ---
-title: Searches for heavy diboson resonances in $pp$ collisions at $sqrts=13$ TeV
+title: Searches for heavy diboson resonances in $pp$ collisions at $\sqrt{s}=13$ TeV
   with the ATLAS detector
 
 # Authors
@@ -7,7 +7,7 @@ title: Searches for heavy diboson resonances in $pp$ collisions at $sqrts=13$ Te
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- M. Aaboud \em et al. [ATLAS Collaboration]
+- ATLAS Collaboration
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -30,7 +30,19 @@ publication_short: ''
 ids:
   doi: 10.1007/JHEP09(2016)173
 
-abstract: ''
+links:
+  - name: DOI
+    url: "http://doi.org/10.1007/JHEP09(2016)173"
+  - name: arXiv
+    url: "https://arxiv.org/abs/1606.04833"
+  - name: pdf
+    url: "https://inspirehep.net/files/29233ca2ff7babb1f18ca1e3448cdaad"
+
+abstract: 'Searches for new heavy resonances decaying to $WW$, $WZ$, and $ZZ$ bosons are presented, using a data sample corresponding to 3.2 fb$^{-1}$ of $pp$ collisions at $\sqrt{s}=13$~\TeV{} collected with the ATLAS detector at the CERN Large Hadron Collider.  Analyses selecting \vvqq, \lvqq, \llqq{} and \qqqq{} final states are combined, searching for a narrow-width resonance with mass between 500 and 3000~\GeV. The discriminating variable is either an invariant mass or a transverse mass. No significant
+deviations from the Standard Model predictions are observed. Three benchmark models are tested:  a model predicting the existence of a new heavy scalar singlet, a simplified model predicting a
+heavy vector-boson triplet, and a bulk Randall-Sundrum model with a heavy spin-2 graviton. Cross-section limits  are set at the 95\% confidence level and are
+compared to theoretical cross-section predictions for a variety of models. The data exclude a scalar singlet with mass below \limScal~\GeV, a heavy vector-boson 
+triplet with mass below \limHvt~\GeV{}, and a graviton with mass below \limGrav~\GeV. These results significantly extend the previous limits set using $pp$ collisions at $\sqrt{s}=8\tev$'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -68,9 +80,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/1606.04833
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

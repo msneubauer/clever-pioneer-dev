@@ -6,7 +6,33 @@ title: Jets and Jet Substructure at Future Colliders
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- \textitet~al. B. Nachman
+- Ben Nachman
+- Salvatore Rappoccio
+- Nhan Tran
+- Johan Bonilla
+- Grigorios Chachamis
+- Barry M. Dillon
+- Sergei V. Chekanov
+- Robin Erbacher
+- Loukas Gouskos
+- Andreas Hinzmann
+- Stefan Höche
+- B. Todd Huffman
+- Ashutosh. V. Kotwal
+- Deepak Kar
+- Roman Kogler
+- Clemens Lange
+- Matt LeBlanc
+- Roy Lemmon
+- Christine McLean
+- me
+- Tilman Plehn
+- Debarati Roy
+- Giordan Stark
+- Jennifer Roloff
+- Marcel Vos
+- Chih-Hsiang Yeh
+- Shin-Shan Yu
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,7 +55,15 @@ publication_short: ''
 ids:
   doi: 10.3389/fphy.2022.897719
 
-abstract: ''
+links:
+  - name: DOI
+    url: "http://doi.org/10.3389/fphy.2022.897719"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2203.07462"
+  - name: pdf
+    url: "https://inspirehep.net/files/e25f3d1c7c98c71a9bad8c36c5d1279a"
+
+abstract: 'Even though jet substructure was not an original design consideration for the Large Hadron Collider (LHC) experiments, it has emerged as an essential tool for the current physics program. We examine the role of jet substructure on the motivation for and design of future energy Frontier colliders. In particular, we discuss the need for a vibrant theory and experimental research and development program to extend jet substructure physics into the new regimes probed by future colliders. Jet substructure has organically evolved with a close connection between theorists and experimentalists and has catalyzed exciting innovations in both communities. We expect such developments will play an important role in the future energy Frontier physics program.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -67,9 +101,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/2203.07462
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

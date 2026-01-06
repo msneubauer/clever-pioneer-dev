@@ -7,7 +7,7 @@ title: Observation of a new particle in the search for the Standard Model Higgs 
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- G. Aad \em et al. [ATLAS Collaboration]
+- ATLAS Collaboration
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -30,7 +30,28 @@ publication_short: ''
 ids:
   doi: 10.1016/j.physletb.2012.08.020
 
-abstract: ''
+links:
+  - name: DOI
+    url: "http://doi.org/10.1016/j.physletb.2012.08.020"
+  - name: arXiv
+    url: "https://arxiv.org/abs/1207.7214"
+  - name: pdf
+    url: "https://arxiv.org/pdf/1207.7214.pdf"
+
+abstract: 'A search for the Standard Model Higgs boson in
+  proton-proton collisions with the ATLAS detector at the LHC is
+  presented.  The datasets used correspond to integrated luminosities
+  of approximately 4.8~\ifb\ collected at $\sqrt{s}=7$\,TeV in 2011 and 5.8~\ifb\
+  at $\sqrt{s}=8$\,TeV in 2012.  Individual searches in the channels
+  \htollll, \hgg\ and $\hWWenmun$ in the
+  8\,TeV data are combined with previously published results of
+  searches for $H{\rightarrow\,}ZZ^{(*)}$, $WW^{(*)}$, \bbbar\ and
+  $\tau^+\tau^-$ in the 7\,TeV data and results from improved analyses of the \htollll\ and
+  \hgg\  channels in the 7\,TeV data.  Clear evidence
+  for the production of a neutral boson with a measured mass of $\massresultStatSys$ 
+  is presented. This observation, which has a significance of 5.9 standard deviations,
+  corresponding to a background fluctuation probability of $1.7\times 10^{-9}$, 
+  is compatible with the production and decay of the Standard Model Higgs boson'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -68,9 +89,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/1207.7214
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

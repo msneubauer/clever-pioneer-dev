@@ -1,15 +1,14 @@
 ---
-title: 'Making digital objects FAIR in high energy physics: An implementation for
-  Universal FeynRules Output models'
+title: 'Making digital objects FAIR in high energy physics: An implementation for Universal FeynRules Output models'
 
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- M. S. Neubauer
-- A. Roy
-- Z. Wang
+- me
+- Avik Roy
+- Zijun Wang
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -26,13 +25,21 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*em SciPost Phys. Codebases*'
+publication: '*SciPost Phys. Codebases*'
 publication_short: ''
 
 ids:
   doi: 10.21468/SciPostPhysCodeb.13
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://scipost.org/10.21468/SciPostPhysCodeb.13"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2209.09752"
+  - name: pdf
+    url: "https://scipost.org/SciPostPhysCodeb.13/pdf"
+
+abstract: 'Research in the data-intensive discipline of high energy physics (HEP) often relies on domain-specific digital contents. Reproducibility of research relies on proper preservation of these digital objects. This paper reflects on the interpretation of principles of Findability, Accessibility, Interoperability, and Reusability (FAIR) in such context and demonstrates its implementation by describing the development of an end-to-end support infrastructure for preserving and accessing Universal FeynRules Output (UFO) models guided by the FAIR principles. UFO models are custom-made python libraries used by the HEP community for Monte Carlo simulation of collider physics events. Our framework provides simple but robust tools to preserve and access the UFO models and corresponding metadata in accordance with the FAIR principles.'
 
 # Summary. An optional shortened abstract.
 summary: ''

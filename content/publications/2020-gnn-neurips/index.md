@@ -6,7 +6,27 @@ title: Accelerated Charged Particle Tracking with Graph Neural Networks on FPGAs
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- A. Heintz \em et al.
+- Aneesh Heintz
+- Vesal Razavimaleki
+- Javier Duarte
+- Gage DeZoort
+- Isobel Ojalvo
+- Savannah Thais
+- Markus Atkinson
+- me
+- Lindsey Gray
+- Sergo Jindariani
+- Nhan Tran
+- Philip Harris
+- Dylan Rankin
+- Thea Aarrestad
+- Vladimir Loncar
+- Maurizio Pierini
+- Sioni Summers
+- Jennifer Ngadiuba
+- Mia Liu
+- Edward Kreinar
+- Zhenbin Wu
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -28,9 +48,26 @@ publication: '*34th Conference on Neural Information Processing Systems (NeurIPS
 publication_short: ''
 
 ids:
-  doi: ''
+  doi: '10.48550/arXiv.2012.01563'
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://doi.org/10.48550/arXiv.2012.01563"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2012.01563"
+  - name: pdf
+    url: "https://arxiv.org/pdf/2012.01563"
+
+abstract: 'We develop and study FPGA implementations of algorithms for charged particle
+tracking based on graph neural networks. The two complementary FPGA designs
+are based on OpenCL, a framework for writing programs that execute across
+heterogeneous platforms, and hls4ml, a high-level-synthesis-based compiler for
+neural network to firmware conversion. We evaluate and compare the resource
+usage, latency, and tracking performance of our implementations based on a
+benchmark dataset. We find a considerable speedup over CPU-based execution
+is possible, potentially enabling such algorithms to be used effectively in future
+computing workflows and the FPGA-based Level-1 trigger at the CERN Large
+Hadron Collider.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -68,9 +105,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/2012.01563
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

@@ -31,6 +31,14 @@ publication_short: ''
 ids:
   doi: 10.1103/PhysRevD.100.032007
 
+links:
+  - name: DOI
+    url: ""
+  - name: arXiv
+    url: "https://arxiv.org/abs/1905.07714"
+  - name: pdf
+    url: ""
+
 abstract: ''
 
 # Summary. An optional shortened abstract.
@@ -69,9 +77,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/1905.07714
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

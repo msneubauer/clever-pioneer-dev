@@ -7,28 +7,28 @@ title: 'Smart pixel sensors: towards on-sensor filtering of pixel clusters with 
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- J. Yoo
-- J. Dickinson
-- M Swartz
-- G. Di Guglielmo
-- A. Bean
-- D. Berry
-- M. B. Valentin
-- K. DiPetrillo
-- F. Fahim
-- L. Gray
-- J. Hirschauer
-- S. R. Kulkarni
-- R. Lipton
-- P. Maksimovic
-- C. Mills
-- M. S. Neubauer
-- B. Parpillon
-- G. Pradhan
-- C. Syal
-- N. Tran
-- D. Wen
-- A Young
+- Jieun Yoo
+- Jennet Dickinson
+- Morris Swartz
+- Giuseppe Di Guglielmo
+- Alice Bean
+- Douglas Berry
+- Manuel. B. Valentin
+- Karri DiPetrillo
+- Farah Fahim
+- Lindsey Gray
+- James Hirschauer
+- Shruti R. Kulkarni
+- Ron Lipton
+- Petar Maksimovic
+- Corrinne Mills
+- me
+- Benjamin Parpillon
+- Gauri Pradhan
+- Chinar Syal
+- Nhan Tran
+- Dahai Wen
+- Aaron Young
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -49,9 +49,17 @@ publication: '*Mach. Learn. Sci. Tech.*'
 publication_short: ''
 
 ids:
-  doi: ''
+  doi: '10.1088/2632-2153/ad6a00'
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://iopscience.iop.org/article/10.1088/2632-2153/ad6a00"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2310.02474"
+  - name: pdf
+    url: "https://iopscience.iop.org/article/10.1088/2632-2153/ad6a00/pdf"
+    
+abstract: 'Highly granular pixel detectors allow for increasingly precise measurements of charged particle tracks. Next-generation detectors require that pixel sizes will be further reduced, leading to unprecedented data rates exceeding those foreseen at the High- Luminosity Large Hadron Collider. Signal processing that handles data incoming at a rate of O(40 MHz) and intelligently reduces the data within the pixelated region of the detector at rate will enhance physics performance at high luminosity and enable physics analyses that are not currently possible. Using the shape of charge clusters deposited in an array of small pixels, the physical properties of the traversing particle can be extracted with locally customized neural networks. In this first demonstration, we present a neural network that can be embedded into the on-sensor readout and filter out hits from low momentum tracks, reducing the detector’s data volume by 57.1%–75.7%. The network is designed and simulated as a custom readout integrated circuit with 28 nm CMOS technology and is expected to operate at less than 300 µW with an area of less than 0.2 mm2. The temporal development of charge clusters is investigated to demonstrate possible future performance gains, and there is also a discussion of future algorithmic and technological improvements that could enhance efficiency, data reduction, and power per area.'
 
 # Summary. An optional shortened abstract.
 summary: ''

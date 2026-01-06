@@ -6,7 +6,7 @@ title: Observation of $WZ$ Production
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- A. Abulencia \em et al. [CDF Collaboration]
+- CDF Collaboration
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,7 +29,25 @@ publication_short: ''
 ids:
   doi: 10.1103/PhysRevLett.98.161801
 
-abstract: ''
+links:
+  - name: DOI
+    url: "http://doi.org/10.1103/PhysRevLett.98.161801"
+  - name: arXiv
+    url: "https://arxiv.org/abs/hep-ex/0702027"
+  - name: pdf
+    url: "https://inspirehep.net/files/45f3de314726e3f08dd23b2e61fc5c88"
+
+abstract: 'We report the first observation of the associated production of a $\W$
+boson and a $\Z$ boson. This result is based on 1.1 ${\rm fb}^{-1}$ of
+integrated luminosity from $p\overline{p}$ collisions at $\sqrt{s} =
+1.96~{\rm TeV}$ collected with the CDF II detector at the Fermilab
+Tevatron. We observe 16 $\WZ$ candidates passing our event selection
+with an expected background of $2.7 \pm 0.4$ events. A fit to the
+missing transverse energy distribution indicates an excess of events
+compared to the background expectation corresponding to a significance
+equivalent to six standard deviations. The measured cross section is 
+$\sigma(p\overline{p}\rightarrow WZ) = 5.0^{+1.8}_{-1.6}$ pb,
+consistent with the standard model expectation.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -67,9 +85,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/hep-ex/0702027
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

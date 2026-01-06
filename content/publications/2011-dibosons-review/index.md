@@ -6,7 +6,7 @@ title: Diboson production at colliders
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Mark S. Neubauer
+- me
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,7 +29,15 @@ publication_short: ''
 ids:
   doi: 10.1146/annurev-nucl-102010-130106
 
-abstract: ''
+links:
+  - name: DOI
+    url: "http://doi.org/10.1146/annurev-nucl-102010-130106"
+  - name: arXiv
+    url: ""
+  - name: pdf
+    url: "https://www.annualreviews.org/doi/pdf/10.1146/annurev-nucl-102010-130106"
+
+abstract: 'This article is devoted to the physics of pairs of electroweak gauge bosons (dibosons) produced at high-energy particle colliders. Particular emphasis is placed on published results on diboson production from the CDF and DØ experiments at the Fermilab Tevatron and the CMS and ATLAS experiments at the CERN Large Hadron Collider (LHC). The study of diboson production at colliders plays an important role in tests of electroweak theory and searches for new phenomena at the TeV-energy scale and beyond. The diboson physics program has been a highlight of Run II at the Fermilab Tevatron. The progress made on analysis methods through the study of Standard Model diboson signals has had a direct and positive impact on the sensitivity of Higgs boson and New Physics searches in the Tevatron experiments. It is anticipated that diboson physics will play an even bigger role in the TeV-scale exploration now under way at the LHC.'
 
 # Summary. An optional shortened abstract.
 summary: ''

@@ -8,7 +8,7 @@ title: Strategic Plan for a Scientific Software Innovation Institute (S2I2) for 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Peter Elmer
-- Mark S. Neubauer
+- me
 - Michael D. Sokoloff
 
 # Author notes (such as 'Equal Contribution')
@@ -30,9 +30,17 @@ publication: ''
 publication_short: ''
 
 ids:
-  doi: ''
+  doi: '10.48550/arXiv.1712.06592'
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://doi.org/10.48550/arXiv.1712.06592"
+  - name: arXiv
+    url: "https://arxiv.org/abs/1712.06592"
+  - name: pdf
+    url: "https://arxiv.org/pdf/1712.06592"
+
+abstract: 'The quest to understand the fundamental building blocks of nature and their interactions is one of the oldest and most ambitious of human scientific endeavors. Facilities such as CERNs Large Hadron Collider (LHC) represent a huge step forward in this quest. The discovery of the Higgs boson, the observation of exceedingly rare decays of B mesons, and stringent constraints on many viable theories of physics beyond the Standard Model (SM) demonstrate the great scientific value of the LHC physics program. The next phase of this global scientific project will be the High-Luminosity LHC (HL-LHC) which will collect data starting circa 2026 and continue into the 2030s. The primary science goal is to search for physics beyond the SM and, should it be discovered, to study its details and implications. During the HL-LHC era, the ATLAS and CMS experiments will record circa 10 times as much data from 100 times as many collisions as in LHC Run 1. The NSF and the DOE are planning large investments in detector upgrades so the HL-LHC can operate in this high-rate environment. A commensurate investment in R&D for the software for acquiring, managing, processing and analyzing HL-LHC data will be critical to maximize the return-on-investment in the upgraded accelerator and detectors. The strategic plan presented in this report is the result of a conceptualization process carried out to explore how a potential Scientific Software Innovation Institute (S2I2) for High Energy Physics (HEP) can play a key role in meeting HL-LHC challenges.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -70,9 +78,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/1712.06592
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

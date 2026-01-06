@@ -7,8 +7,8 @@ title: A detailed study of interpretability of deep neural network based top tag
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - me
-- A. Khot
-- A. Roy
+- Ayush Khot
+- Avik Roy
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

@@ -6,7 +6,30 @@ title: Performance of a geometric deep learning pipeline for HL-LHC particle tra
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- \textitet~al. X. Ju
+- Xiangyang Ju
+- Daniel Murnane
+- Paolo Calafiura
+- Nicholas Choma
+- Sean Conlon
+- Steve Farrell
+- Yaoyuan Xu
+- Maria Spiropulu
+- Jean-Roch Vlimant
+- Adam Aurisano
+- V Hewes
+- Giuseppe Cerati
+- Lindsey Gray
+- Thomas Klijnsma
+- Jim Kowalkowski
+- Markus Atkinson
+- me
+- Gage DeZoort
+- Savannah Thais
+- Aditi Chauhan
+- Alex Schuy
+- Shih-Chieh Hsu
+- Alex Ballow
+- Alina Lazar
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,7 +52,15 @@ publication_short: ''
 ids:
   doi: 10.1140/epjc/s10052-021-09675-8
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://doi.org/10.1140/epjc/s10052-021-09675-8"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2103.06995"
+  - name: pdf
+    url: "https://link.springer.com/content/pdf/10.1140/epjc/s10052-021-09675-8.pdf"
+
+abstract: 'The Exa.TrkX project has applied geometric learning concepts such as metric learning and graph neural networks to HEP particle tracking. this http URLs tracking pipeline groups detector measurements to form track candidates and filters them. The pipeline, originally developed using the TrackML dataset (a simulation of an LHC-inspired tracking detector), has been demonstrated on other detectors, including DUNE Liquid Argon TPC and CMS High-Granularity Calorimeter. This paper documents new developments needed to study the physics and computing performance of the Exa.TrkX pipeline on the full TrackML dataset, a first step towards validating the pipeline using ATLAS and CMS data. The pipeline achieves tracking efficiency and purity similar to production tracking algorithms. Crucially for future HEP applications, the pipeline benefits significantly from GPU acceleration, and its computational requirements scale close to linearly with the number of particles in the event.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -67,9 +98,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/2103.06995
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

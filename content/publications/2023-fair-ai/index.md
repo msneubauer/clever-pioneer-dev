@@ -18,7 +18,7 @@ authors:
 - I. H. Kavoori
 - V. Kindratenko
 - F. Mokhtar
-- M. S. Neubauer
+- me
 - S. E. Park
 - M. Quinnan
 - R. Rusack
@@ -45,7 +45,15 @@ publication_short: ''
 ids:
   doi: 10.1088/2632-2153/ad12e3
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://doi.org/10.1088/2632-2153/ad12e3"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2212.05081"
+  - name: pdf
+    url: "https://iopscience.iop.org/article/10.1088/2632-2153/ad12e3/pdf"
+
+abstract: 'The findable, accessible, interoperable, and reusable (FAIR) data principles provide a framework for examining, evaluating, and improving how data is shared to facilitate scientific discovery. Generalizing these principles to research software and other digital products is an active area of research. Machine learning models—algorithms that have been trained on data without being explicitly programmed—and more generally, artificial intelligence (AI) models, are an important target for this because of the ever-increasing pace with which AI is transforming scientific domains, such as experimental high energy physics (HEP). In this paper, we propose a practical definition of FAIR principles for AI models in HEP and describe a template for the application of these principles. We demonstrate the template’s use with an example AI model applied to HEP, in which a graph neural network is used to identify Higgs bosons decaying to two bottom quarks. We report on the robustness of this FAIR AI model, its portability across hardware architectures and software frameworks, and its interpretability.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -83,9 +91,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/2212.05081
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

@@ -36,7 +36,15 @@ publication_short: ''
 ids:
   doi: 10.1007/s41781-021-00073-z
 
-abstract: ''
+links:
+  - name: DOI
+    url: "https://doi.org/10.1007/s41781-021-00073-z"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2103.16701"
+  - name: pdf
+    url: "https://link.springer.com/content/pdf/10.1007/s41781-021-00073-z.pdf"
+
+abstract: 'Recent work has demonstrated that geometric deep learning methods such as graph neural networks (GNNs) are well suited to address a variety of reconstruction problems in high energy particle physics. In particular, particle tracking data is naturally represented as a graph by identifying silicon tracker hits as nodes and particle trajectories as edges; given a set of hypothesized edges, edge-classifying GNNs identify those corresponding to real particle trajectories. In this work, we adapt the physics-motivated interaction network (IN) GNN toward the problem of particle tracking in pileup conditions similar to those expected at the high-luminosity Large Hadron Collider. Assuming idealized hit filtering at various particle momenta thresholds, we demonstrate the IN excellent edge-classification accuracy and tracking efficiency through a suite of measurements at each stage of GNN-based tracking: graph construction, edge classification, and track building. The proposed IN architecture is substantially smaller than previously studied GNN tracking architectures; this is particularly promising as a reduction in size is critical for enabling GNN-based tracking in constrained computing environments. Furthermore, the IN may be represented as either a set of explicit matrix operations or a message passing GNN. Efforts are underway to accelerate each representation via heterogeneous computing resources towards both high-level and low-latency triggering applications.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -74,9 +82,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/2103.16701
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
