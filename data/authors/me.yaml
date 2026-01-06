@@ -73,6 +73,10 @@ experience:
   - role: "Affiliate Professor"
     org: "Discovery Partners Institute"
     start: "2024-08-01"
+    button:
+      text: "Executive Committee Member"
+      url: "https://dpi.illinois.edu/about/dpi-team/dpi-executive-committee"
+      icon: "hero/sparkles"
   - role: "Affiliate Professor"
     org: "University of Illinois at Urbana-Champaign"
     start: "2019-08-01"
