@@ -45,7 +45,7 @@ sections:
         folders:
           - publications
         featured_only: true
-      count: 3
+      count: 0
     design:
       view: article-grid
       columns: 3

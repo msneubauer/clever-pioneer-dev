@@ -12,6 +12,7 @@ sections:
         folders:
           - publications
         featured_only: true
+      count: 0 # Set count to 0 to display all items
     design:
       view: article-grid
       columns: 3
