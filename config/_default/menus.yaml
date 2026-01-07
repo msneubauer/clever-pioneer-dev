@@ -9,26 +9,30 @@ main:
     url: publications/
     weight: 10
   - name: News
+    identifier: Ls8rDxWS
+    url: news/
+    weight: 20  
+  - name: Blogs
     identifier: E2rpTV48
     url: blog/
-    weight: 20
+    weight: 30
   - name: Experience
     identifier: cvYrQHgF
     url: experience/
-    weight: 30
+    weight: 40
   - name: Awards
     identifier: HsSA-kTsw
     url: awards
-    weight: 40
+    weight: 50
   - name: Research
     identifier: Z0A-Ylbc
     url: research/
-    weight: 50
+    weight: 60
   - name: Teaching
     identifier: kIoA-SMud
     url: teaching/
-    weight: 60
+    weight: 70
   - name: Vitae
     identifier: leWy-AjU4
     url: uploads/CV.pdf
-    weight: 70
+    weight: 80

@@ -38,6 +38,7 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded  
 
+########### Publications
   - block: collection
     content:
       title: Featured Publications
@@ -48,10 +49,9 @@ sections:
       count: 0
     design:
       view: article-grid
-      columns: 3
+      columns: 4
       spacing:
         padding: ['40px', '0', '0', '0']
-
   - block: cta-button-list
     content:
       buttons:
@@ -63,11 +63,43 @@ sections:
       align: center
       background:
         color: "blue-50"
-  
+
+########### News
   - block: collection
-    id: news
     content:
-      title: Recent News
+      title: Featured News
+      filters:
+        folders:
+          - news
+        kinds:
+          - section
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 4
+      fill_image: true
+      show_date: false
+      show_read_time: false
+      show_read_more: false
+      flip_back: false
+      spacing:
+        padding: ['0', '0', '0', '0']
+  - block: cta-button-list
+    content:
+      buttons:
+        - text: See all news
+          url: /news/
+    design:
+      columns: "1"
+      padding: none
+      align: center
+      background:
+        color: "blue-50"
+
+########### Blogs
+  - block: collection
+    content:
+      title: Featured Blogs
       subtitle: ''
       text: ''
       page_type: blog
@@ -81,6 +113,7 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ''
+        featured_only: true
       # Choose how many pages you would like to offset by
       offset: 0
       # Page order: descending (desc) or ascending (asc) date.
@@ -90,11 +123,10 @@ sections:
       columns: 4
       spacing:
         padding: [0, 0, 0, 0]
-
   - block: cta-button-list
     content:
       buttons:
-        - text: See all news
+        - text: See all blogs
           url: /blog/
     design:
       columns: "1"

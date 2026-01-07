@@ -3,6 +3,9 @@ title: 🎉 Easily create your own simple yet highly customizable blog
 summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
 date: 2023-10-27
 
+# Display this page in a list of Featured pages?
+featured: true
+
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:

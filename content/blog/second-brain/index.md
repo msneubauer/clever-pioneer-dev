@@ -2,6 +2,10 @@
 title: 🧠 Sharpen your thinking with a second brain
 summary: Create a personal knowledge base and share your knowledge with your peers.
 date: 2023-10-26
+
+# Display this page in a list of Featured pages?
+featured: false
+
 authors:
   - me
 tags:

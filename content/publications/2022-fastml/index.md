@@ -131,10 +131,11 @@ abstract: 'In this community review report, we discuss applications and techniqu
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags: []
+tags:
+- Artificial Intelligence
 
 # Display this page in a list of Featured pages?
-featured: yes
+featured: true
 
 # Links
 url_pdf: ''

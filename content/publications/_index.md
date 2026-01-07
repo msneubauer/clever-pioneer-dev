@@ -15,7 +15,7 @@ sections:
       count: 0 # Set count to 0 to display all items
     design:
       view: article-grid
-      columns: 3
+      columns: 4
       spacing:
         # Top, Right, Bottom, Left
         padding: ['40px', '0', '0', '0']
