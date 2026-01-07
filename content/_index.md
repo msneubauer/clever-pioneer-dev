@@ -87,7 +87,7 @@ sections:
       order: desc
     design:
       view: article-grid
-      columns: 3
+      columns: 4
       spacing:
         padding: [0, 0, 0, 0]
 

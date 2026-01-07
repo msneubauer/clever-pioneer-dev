@@ -22,7 +22,7 @@ sections:
           - section
     design:
       view: article-grid
-      columns: 2
+      columns: 4
       fill_image: true
       show_date: false
       show_read_time: false
