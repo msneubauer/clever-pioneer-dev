@@ -8,7 +8,7 @@ type: landing
 sections:
   - block: collection
     content:
-      title: Blog
+      title: Blogs
       subtitle: ''
       text: ''
       page_type: blog

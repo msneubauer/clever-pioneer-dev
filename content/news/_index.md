@@ -23,7 +23,7 @@ sections:
       view: article-grid
       columns: 4
       fill_image: true
-      show_date: false
+      show_date: true
       show_read_time: false
       show_read_more: false
       flip_back: false
