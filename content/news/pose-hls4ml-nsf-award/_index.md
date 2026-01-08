@@ -9,6 +9,9 @@ external_link: https://www.mccormick.northwestern.edu/electrical-computer/news-e
 image:
   filename: featured.png
 
+tags: 
+- Funding Award
+
 build:
   list: hidden
   render: false

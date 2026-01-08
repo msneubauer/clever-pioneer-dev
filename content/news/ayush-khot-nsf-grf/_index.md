@@ -9,7 +9,8 @@ external_link: https://physics.illinois.edu/news/ayush-khot-nsf-grf
 image:
   filename: featured.png
 
-tags: ["Machine Learning", "Physics", "Announcement"]
+tags: 
+- Award
 
 build:
   list: hidden

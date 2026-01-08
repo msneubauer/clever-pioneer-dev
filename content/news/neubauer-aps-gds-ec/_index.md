@@ -9,6 +9,9 @@ external_link: https://physics.illinois.edu/news/Neubauer/APS_GDS
 image:
   filename: featured.png
 
+tags: 
+- Appointment
+
 build:
   list: hidden
   render: false

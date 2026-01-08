@@ -9,6 +9,9 @@ external_link: https://home.cern/news/press-release/knowledge-sharing/lhc-experi
 image:
   filename: featured.jpg
 
+tags: 
+- Prize
+
 build:
   list: hidden
   render: false

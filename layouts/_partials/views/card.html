@@ -115,6 +115,22 @@
       </div>
       {{ end }}
 
+      <!-- Existing image or other stuff -->
+
+      {{ if $item.Params.tags }}
+        <div class="flex flex-wrap gap-1.5 mb-3">
+          {{ range $item.Params.tags }}
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-200">
+              {{ . }}
+            </span>
+          {{ end }}
+        </div>
+      {{ end }}
+
+<h3 id="card-title-{{ $item.File.UniqueID }}" class="text-xl font-bold ...">
+  <!-- your existing title code with short_title conditional -->
+</h3>      
+
       <h3 id="card-title-{{ $item.File.UniqueID }}" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200 leading-tight">
         <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="hover:underline">
           {{ with $item.Params.short_title }}
