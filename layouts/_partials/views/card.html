@@ -117,14 +117,19 @@
 
       <!-- Existing image or other stuff -->
 
-      {{ if $item.Params.tags }}
-        <div class="flex flex-wrap gap-1.5 mb-3">
-          {{ range $item.Params.tags }}
-            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-200">
-              {{ . }}
-            </span>
-          {{ end }}
-        </div>
+      {{ if or (eq $item.Type "post") (eq $item.Section "post") (eq $item.Section "news") }}
+        {{ if $item.Params.tags }}
+          <div class="flex flex-wrap gap-1.5 mb-3">
+            {{ range sort $item.Params.tags }}
+              <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" 
+                class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium 
+                        bg-blue-50 text-blue-700 dark:bg-blue-950 dark:text-blue-300 
+                        border border-blue-200 dark:border-blue-800 hover:bg-blue-100 dark:hover:bg-blue-900 transition">
+                {{ . }}
+              </a>
+            {{ end }}
+          </div>
+        {{ end }}
       {{ end }}
 
 <h3 id="card-title-{{ $item.File.UniqueID }}" class="text-xl font-bold ...">
