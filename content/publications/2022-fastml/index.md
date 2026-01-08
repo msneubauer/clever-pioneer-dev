@@ -1,5 +1,6 @@
 ---
 title: Applications and Techniques for Fast Machine Learning in Science
+short_title: Fast Machine Learning for Science
 
 # Authors
 # A YAML list of author names

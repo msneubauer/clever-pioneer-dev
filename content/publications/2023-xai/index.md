@@ -1,5 +1,6 @@
 ---
 title: A detailed study of interpretability of deep neural network based top taggers
+short_title: Explainability of Deep Neural Networks in top quark tagging
 
 # Authors
 # A YAML list of author names

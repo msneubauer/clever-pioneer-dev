@@ -1,5 +1,6 @@
 ---
 title: Electroweak diboson production in association with a high-mass dijet system in semileptonic final states from $pp$ collisions at $\sqrt{s} = 13$ TeV with the ATLAS detector.
+short_title: Observation of vector boson scattering
 
 # Authors
 # A YAML list of author names

@@ -1,6 +1,6 @@
 ---
-title: Evidential deep learning for uncertainty quantification and out-of-distribution
-  detection in jet identification using deep neural networks
+title: Evidential deep learning for uncertainty quantification and out-of-distribution detection in jet identification using deep neural networks
+short_title: Evidential DL for Uncertainties and Anomaly Detection
 
 # Authors
 # A YAML list of author names
