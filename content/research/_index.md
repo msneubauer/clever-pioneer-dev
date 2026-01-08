@@ -24,13 +24,13 @@ sections:
       text: Here are a selection of research projects that I have worked on over the years.
       filters:
         folders:
-        - research
-#          - research/ai
+#          - research
+          - research/ai
 #          - research/quantum
 #          - research/particle-physics          # ← Add this (or whatever your exact folder name is)
           # Optional: featured_only: true         # Only show if you mark folders as featured
-        kinds:
-          - page
+#        kinds:
+#          - page
       count: 0
     design:
       view: article-grid
