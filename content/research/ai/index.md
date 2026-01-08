@@ -1,7 +1,5 @@
 ---
 title: Artificial Intelligence
-date: 2023-10-26
-links:
-  - type: site
-    url: https://github.com/scikit-learn/scikit-learn
+summary: AI/ML Research
+featured: true  # Optional: prioritize it
 ---

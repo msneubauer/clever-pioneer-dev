@@ -1,5 +1,5 @@
 ---
 title: Quantum
-date: 2023-10-26
-
+summary: Quantum Research
+featured: true  # Optional: prioritize it
 ---
