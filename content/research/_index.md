@@ -11,15 +11,10 @@ design:
 sections:
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🔬🤖 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy. $\sum_{i = 0}^N 2i = y$
-
-        Please reach out to collaborate 😃 
-        An equation: $$\int_{-\infty}^{\infty} e^{-x^2} dx$$.
+        My research is highly interdisciplinary at the intersection of particle physics, AI/ML, and quantum, aiming to understand the universe at its fundamental level and to accelerate scientific discovery through innovation. Below shows the broad areas of research I am interested in. Click to find more in-depth information on each.
     design:
       columns: 1
 
@@ -32,7 +27,7 @@ sections:
           - research
     design:
       view: article-grid
-      fill_image: false
+      fill_image: true
       columns: 3
       show_date: false
       show_read_time: false
