@@ -132,11 +132,8 @@
         {{ end }}
       {{ end }}
 
-<h3 id="card-title-{{ $item.File.UniqueID }}" class="text-xl font-bold ...">
-  <!-- your existing title code with short_title conditional -->
-</h3>      
-
-      <h3 id="card-title-{{ $item.File.UniqueID }}" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200 leading-tight">
+      <h3 id="card-title-{{ $item.RelPermalink | urlize | safeHTML }}" 
+          class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200 leading-tight">
         <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="hover:underline">
           {{ with $item.Params.short_title }}
             {{ . }}
@@ -148,7 +145,7 @@
           {{ end }}
         </a>
       </h3>
-      
+
       <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
         {{ (partial "functions/get_summary" $item) | plainify | htmlUnescape | truncate 180 }}
       </p>
