@@ -2,6 +2,9 @@
 title: Neutrino Physics
 type: landing
 
+image:
+  filename: featured.png
+
 sections:
   - block: markdown
     content:
