@@ -6,29 +6,42 @@
 main:
   - name: Papers
     identifier: Y7xE8GHJ
-    url: publications/
+    url: /publications/
     weight: 10
   - name: News
     identifier: Ls8rDxWS
-    url: news/
+    url: /news/
     weight: 20  
   - name: Blogs
     identifier: E2rpTV48
-    url: blog/
+    url: /blog/
     weight: 30
   - name: Experience
     identifier: cvYrQHgF
-    url: experience/
+    url: /experience/
     weight: 40
   - name: Awards
     identifier: HsSA-kTsw
-    url: awards
+    url: /awards/
     weight: 50
-  - name: Research
-    identifier: Z0A-Ylbc
-    url: research/
-    weight: 60
   - name: Teaching
     identifier: kIoA-SMud
-    url: teaching/
+    url: /teaching/
+    weight: 60
+
+  - name: Research
+    identifier: research
+    url: /research/
     weight: 70
+  - name: Publications
+    parent: research
+    url: /publications/
+    weight: 10
+  - name: Projects
+    parent: research
+    url: /research/#projects
+    weight: 20
+  - name: Team
+    parent: research
+    url: /research/#team
+    weight: 30
