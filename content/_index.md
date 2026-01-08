@@ -38,6 +38,35 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded  
 
+########### Research
+  - block: collection
+    content:
+      title: Research Areas
+      filters:
+        folders:
+          - research
+    design:
+      view: article-grid
+      columns: 3
+      fill_image: true
+      show_date: false
+      show_read_time: false
+      show_read_more: false
+      flip_back: false
+      spacing:
+        padding: ['40px', '0', '0', '0']
+  - block: cta-button-list
+    content:
+      buttons:
+        - text: See all research
+          url: /research/
+    design:
+      columns: "1"
+      padding: none
+      align: center
+      background:
+        color: "blue-50"
+
 ########### Publications
   - block: collection
     content:
