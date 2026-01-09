@@ -1,13 +1,13 @@
 ---
-title: Graph Neural Networks
+title: WZ Production
 date: 2025-12-31
 featured: true
 weight: 10
-link: /research/ai/gnn
+link: /research/wz
 
 image:
   filename: featured.png
 
 tags:
-  - Artificial Intelligence
+  - Particle Physics
 ---

@@ -39,7 +39,7 @@ main:
     weight: 10
   - name: Projects
     parent: research
-    url: /research/#projects
+    url: /research/#ai
     weight: 20
   - name: Team
     parent: research

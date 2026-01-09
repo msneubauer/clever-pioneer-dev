@@ -1,9 +1,9 @@
 ---
-title: Explainable AI
+title: Graph Neural Networks
 date: 2025-12-31
 featured: true
 weight: 10
-link: /research/ai/xai
+link: /research/gnn
 
 image:
   filename: featured.png

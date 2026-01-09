@@ -13,6 +13,7 @@ build:
 ########### Research Areas
 sections:
   - block: collection
+    id: areas
     content:
       title: Research Areas
       filters:
@@ -33,6 +34,7 @@ sections:
 
 ########### Artificial Intelligence
   - block: collection
+    id: ai
     content:
       title: Artificial Intelligence
       filters:
@@ -55,6 +57,7 @@ sections:
 
 ########### Particle Physics
   - block: collection
+    id: particle-physics
     content:
       title: Particle Physics
       filters:
@@ -77,6 +80,7 @@ sections:
 
 ########### Quantum
   - block: collection
+    id: quantum
     content:
       title: Quantum
       filters:
@@ -90,7 +94,7 @@ sections:
       offset: 0
     design:
       view: article-grid
-      columns: 2
+      columns: 1
       fill_image: true
       show_date: false
       show_read_time: false

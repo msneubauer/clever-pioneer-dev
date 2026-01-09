@@ -1,9 +1,9 @@
 ---
-title: $\Lambda_b$ Lifetime
+title: Higgs Boson
 date: 2025-12-31
 featured: true
-weight: 20
-link: /research/particle-physics/lambdab
+weight: 30
+link: /research/higgs
 
 image:
   filename: featured.png
