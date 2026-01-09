@@ -117,6 +117,7 @@
 
       <!-- Existing image or other stuff -->
 
+      <!--
       {{ if or (eq $item.Type "post") (eq $item.Section "post") (eq $item.Section "news") }}
         {{ if $item.Params.tags }}
           <div class="flex flex-wrap gap-1.5 mb-3">
@@ -131,7 +132,8 @@
           </div>
         {{ end }}
       {{ end }}
-
+      -->
+      
       <h3 id="card-title-{{ $item.RelPermalink | urlize | safeHTML }}" 
           class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200 leading-tight">
         <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="hover:underline">

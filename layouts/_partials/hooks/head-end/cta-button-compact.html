@@ -10,7 +10,7 @@
     // Find all buttons/links inside cta-button-list blocks
     const ctaLinks = document.querySelectorAll('.blox-cta-button-list a, .blox-cta-button-list button');
     ctaLinks.forEach(link => {
-    if (link.href && (link.href.includes('/publications/') || link.href.includes('/blog/') || link.href.includes('/news/'))) {
+    if (link.href && (link.href.includes('/publications/') || link.href.includes('/blog/') || link.href.includes('/news/') || link.href.includes('/research/'))) {
         link.setAttribute('target', '_self');
         link.removeAttribute('rel');  // removes noopener/noreferrer if present
 }

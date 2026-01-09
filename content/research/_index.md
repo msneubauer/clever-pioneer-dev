@@ -29,6 +29,26 @@ sections:
       show_read_more: false
       flip_back: false
 
+########### Artificial Intelligence
+  - block: collection
+    content:
+      title: Artificial Intelligence
+      filters:
+        tag: "Artificial Intelligence"
+        folders:
+          - research
+        kinds:
+          - page
+      order: desc
+    design:
+      view: article-grid
+      columns: 3
+      fill_image: true
+      show_date: false
+      show_read_time: false
+      show_read_more: false
+      flip_back: false
+
 ########### Particle Physics
   - block: collection
     content:
@@ -49,6 +69,25 @@ sections:
       show_read_more: false
       flip_back: false
 
+########### Quantum
+  - block: collection
+    content:
+      title: Quantu,m
+      filters:
+        tag: "Quantum"
+        folders:
+          - research
+        kinds:
+          - page
+      order: desc
+    design:
+      view: article-grid
+      columns: 3
+      fill_image: true
+      show_date: false
+      show_read_time: false
+      show_read_more: false
+      flip_back: false
 
 ########### Team
   - block: markdown
