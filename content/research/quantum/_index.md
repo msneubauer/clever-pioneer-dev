@@ -3,7 +3,7 @@ title: Quantum
 date: 2025-12-31
 featured: true
 weight: 30
-link: /research/quantum
+external_link: https://www.marksneubauer.com/clever-pioneer-dev/research/#quantum
 
 image:
   filename: featured.png
