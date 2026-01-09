@@ -105,28 +105,63 @@ sections:
 ########### Team
   - block: markdown
     content:
-      title: ''
-      text: "## Team {#team}"
+#      title: ''
+#      text: "## Team {#team}"
+      title: "## Meet the Team {#team}"
+      text: |-
+        Our group consists of postdocs, PhD students, master's students, and collaborators working on interdisciplinary projects in AI, quantum, and particle physics.
+
+        We welcome inquiries from prospective students and collaborators!
     design:
       columns: '1'
 
   - block: collection
     content:
-      title: Team & Collaborators
-      text: Current members, postdocs, students, and collaborators. Click cards for full profiles.
+      title: Current Members
+      subtitle: ''
+      text: ''
       filters:
         folders:
           - team
-        featured_only: false
+        user_groups:
+          - "Current Members"
       count: 0
-      offset: 0
-      sort_by: title         # or date, lastmod
+      sort_by: Params.last_name
       sort_ascending: true
     design:
       view: article-grid
-      columns: 3
-      flip_back: false
+      columns: 4
+      fill_image: true
+      show_role: true
+      show_social: true
+      show_interests: false
+      show_organizations: true
+      show_read_time: false
       show_date: false
       show_read_more: false
+
+  - block: collection
+    content:
+      title: Alumni
+      subtitle: Former members of the group
+      text: Alumni who have moved on to exciting positions in academia and industry.
+      filters:
+        folders:
+          - team
+        user_groups:
+          - "Alumni"
+      count: 0
+      sort_by: Params.last_name
+      sort_ascending: true
+    design:
+      view: article-grid
+      columns: 4
+      fill_image: true
+      show_role: true
+      show_social: true
+      show_interests: false
+      show_organizations: true
       show_read_time: false
+      show_date: false
+      show_read_more: false
 ---
