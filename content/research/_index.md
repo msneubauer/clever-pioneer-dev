@@ -90,7 +90,7 @@ sections:
       offset: 0
     design:
       view: article-grid
-      columns: 3
+      columns: 2
       fill_image: true
       show_date: false
       show_read_time: false
