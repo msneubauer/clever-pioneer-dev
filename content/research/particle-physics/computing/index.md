@@ -8,4 +8,7 @@ link: /research/particle-physics/computing
 image:
   filename: featured.png
 
+tags:
+  - Particle Physics
+
 ---

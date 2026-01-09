@@ -8,4 +8,6 @@ link: /research/particle-physics/higgs
 image:
   filename: featured.png
 
+tags:
+  - Particle Physics
 ---

@@ -8,4 +8,6 @@ link: /research/particle-physics/solarnu
 image:
   filename: featured.png
 
+tags:
+  - Particle Physics
 ---

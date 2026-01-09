@@ -8,4 +8,6 @@ link: /research/particle-physics/lambdab
 image:
   filename: featured.png
 
+tags:
+  - Particle Physics
 ---

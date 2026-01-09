@@ -16,8 +16,8 @@ sections:
       text: Select an area below to explore my current and prior research
       filters:
         folders:
-          - research/particle-physics
-      featured_only: true
+          - /research/particle-physics
+      featured_only: false
       count: 0
     design:
       view: article-grid

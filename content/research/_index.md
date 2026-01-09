@@ -15,7 +15,6 @@ sections:
   - block: collection
     content:
       title: Research Areas
-      text: Select an area below to explore my current and prior research
       filters:
         folders:
           - research
@@ -29,6 +28,27 @@ sections:
       show_read_time: false
       show_read_more: false
       flip_back: false
+
+########### Particle Physics
+  - block: collection
+    content:
+      title: Particle Physics
+      filters:
+        tag: "Particle Physics"
+        folders:
+          - research
+        kinds:
+          - page
+      order: desc
+    design:
+      view: article-grid
+      columns: 3
+      fill_image: true
+      show_date: false
+      show_read_time: false
+      show_read_more: false
+      flip_back: false
+
 
 ########### Team
   - block: markdown
