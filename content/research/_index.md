@@ -32,6 +32,7 @@ sections:
       show_read_more: false
       flip_back: false
 
+
 ########### Artificial Intelligence
   - block: collection
     id: ai
