@@ -20,6 +20,8 @@ sections:
           - research
         kinds:
           - section
+      count: 0
+      offset: 0
     design:
       view: article-grid
       columns: 3
@@ -40,6 +42,8 @@ sections:
         kinds:
           - page
       order: desc
+      count: 0
+      offset: 0
     design:
       view: article-grid
       columns: 3
@@ -60,6 +64,8 @@ sections:
         kinds:
           - page
       order: desc
+      count: 0
+      offset: 0
     design:
       view: article-grid
       columns: 3
@@ -72,7 +78,7 @@ sections:
 ########### Quantum
   - block: collection
     content:
-      title: Quantu,m
+      title: Quantum
       filters:
         tag: "Quantum"
         folders:
@@ -80,6 +86,8 @@ sections:
         kinds:
           - page
       order: desc
+      count: 0
+      offset: 0
     design:
       view: article-grid
       columns: 3
@@ -103,16 +111,17 @@ sections:
       text: Current members, postdocs, students, and collaborators. Click cards for full profiles.
       filters:
         folders:
-          - team           # ← Your team folder
-        # Optional: featured_only: true  (if you mark some as featured)
-      count: 0               # 0 = show all
+          - team
+        featured_only: false
+      count: 0
+      offset: 0
       sort_by: title         # or date, lastmod
       sort_ascending: true
     design:
-      view: article-grid     # ← This gives nice cards!
-      columns: '3'           # '2' or '4' depending on page width
+      view: article-grid
+      columns: 3
       flip_back: false
       show_date: false
-      show_read_more: false  # No "Read more" needed
+      show_read_more: false
       show_read_time: false
 ---
