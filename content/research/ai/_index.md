@@ -6,7 +6,7 @@ featured: true
 weight: 10
 #external_link: https://www.marksneubauer.com/clever-pioneer-dev/research/#ai
 
-link: /research/#ai          # ← This overrides the default link to the anchor on the same page
+url: /research/#ai          # ← This overrides the default link to the anchor on the same page
 
 image:
   filename: featured.png
