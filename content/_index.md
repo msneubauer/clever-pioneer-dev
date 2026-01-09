@@ -45,6 +45,8 @@ sections:
       filters:
         folders:
           - research
+        kinds:
+          - section
     design:
       view: article-grid
       columns: 3
@@ -58,7 +60,7 @@ sections:
   - block: cta-button-list
     content:
       buttons:
-        - text: See all research
+        - text: Read all about the Neubauer Group @ Illinois
           url: /research/
     design:
       columns: "1"
@@ -80,7 +82,7 @@ sections:
       view: article-grid
       columns: 4
       spacing:
-        padding: ['40px', '0', '0', '0']
+        padding: ['0', '0', '0', '0']
   - block: cta-button-list
     content:
       buttons:
