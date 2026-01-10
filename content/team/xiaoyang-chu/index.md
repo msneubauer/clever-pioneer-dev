@@ -1,7 +1,7 @@
 ---
 title: Xiaoyang Chu
 summary: University of Illinois, Urbana-Champaign
-date: 02
+date: 07
 external_link: https://www.linkedin.com/in/xiaoyang-c-a36863204
 links:
   - type: email
