@@ -125,12 +125,12 @@ sections:
           - team
         tag: "current"
       count: 0
-      sort_by: Params.last_name
+      sort_by: date
       sort_ascending: true
     design:
       view: article-grid
       columns: 4
-      fill_image: true
+      fill_image: false
       show_role: false
       show_social: false
       show_interests: false
@@ -154,7 +154,7 @@ sections:
     design:
       view: article-grid
       columns: 4
-      fill_image: true
+      fill_image: false
       show_role: false
       show_social: false
       show_interests: false

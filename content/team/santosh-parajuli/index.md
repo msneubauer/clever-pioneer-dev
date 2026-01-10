@@ -1,15 +1,13 @@
 ---
 title: Dr. Santosh Parajuli
 summary: University of Illinois, Urbana-Champaign
-group_role: postdoc
-date: 2017-09-01
+date: 01
+external_link: https://www.linkedin.com/in/santosh-parajuli-phd-697a2682/
 links:
   - type: email
     url: mailto:jane@example.com
-  - type: site
-    url: https://www.bnl.gov/npp/modals/viviana-cavaliere.php
   - type: linkedin
-    url: https://www.linkedin.com/in/viviana-cavaliere-50265869
+    url: https://www.linkedin.com/in/santosh-parajuli-phd-697a2682
 tags:
   - postdoc
   - current
