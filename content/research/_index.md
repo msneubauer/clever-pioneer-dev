@@ -123,8 +123,7 @@ sections:
       filters:
         folders:
           - team
-        user_groups:
-          - "Current Members"
+        tag: "current"
       count: 0
       sort_by: Params.last_name
       sort_ascending: true
@@ -132,10 +131,10 @@ sections:
       view: article-grid
       columns: 4
       fill_image: true
-      show_role: true
-      show_social: true
+      show_role: false
+      show_social: false
       show_interests: false
-      show_organizations: true
+      show_organizations: false
       show_read_time: false
       show_date: false
       show_read_more: false
@@ -148,20 +147,19 @@ sections:
       filters:
         folders:
           - team
-        user_groups:
-          - "Alumni"
+        tag: "alumni"
       count: 0
-      sort_by: Params.last_name
+      sort_by: date
       sort_ascending: true
     design:
       view: article-grid
       columns: 4
       fill_image: true
-      show_role: true
-      show_social: true
+      show_role: false
+      show_social: false
       show_interests: false
-      show_organizations: true
+      show_organizations: false
       show_read_time: false
-      show_date: false
+      show_date: true
       show_read_more: false
 ---

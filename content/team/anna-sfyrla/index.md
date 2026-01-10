@@ -1,14 +1,15 @@
 ---
 title: Dr. Anna Sfyrla
-role: Postdoctoral Researcher
-bio: Expert in ML for scientific discovery. Currently working on...
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: mailto:jane@example.com
-  - icon: linkedin
+summary: Associate Professor, Universite de Geneve
+group_role: postdoc
+date: 2010-02-01
+external_link: https://dpnc.unige.ch/~sfyrla
+links:
+  - type: email
+    url: mailto:jane@example.com
+  - type: linkedin
     url: https://www.linkedin.com/in/anna-sfyrla-38965043
-user_groups:
-  - Postdocs
-  - Alumni
+tags:
+  - postdoc
+  - alumni
 ---
