@@ -6,7 +6,7 @@ title: Measurement of the rate of $\nu_e + d \to p+p + e^-$ interactions produce
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- SNO Collaboration
+- Sudbury Neurtrino Observatory Collaboration
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
