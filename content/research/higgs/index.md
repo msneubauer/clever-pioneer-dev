@@ -39,7 +39,7 @@ The Higgs boson can be produced and decay at the LHC in a variety of interesting
            caption="Higgs production and decay modes"
            class="w-full rounded-lg shadow-md mb-6" >}}
 
-In 2012, the ATLAS and CMS experiments announced the discovery of a Higgs boson *h*. This discovery lead to the 2013 Nobel Prize in Physics for a theoretical prediction of the Higgs boson. My group contributed to the Higgs boson discovery (5.9σ) [Phys. Lett. B **716**, 1 (2012)](https://arxiv.org/abs/1207.7214) through analysis of the $h \to WW^*$ channel.
+In 2012, the ATLAS and CMS experiments announced the discovery of a Higgs boson *h*. This discovery led to the 2013 Nobel Prize in Physics for a theoretical prediction of the Higgs boson. My group contributed to the Higgs boson discovery (5.9σ) [Phys. Lett. B **716**, 1 (2012)](https://arxiv.org/abs/1207.7214) through analysis of the $h \to WW^*$ channel.
 
 {{< figure src="Higgs-signals.png"
            caption="Higgs discovery significance"
