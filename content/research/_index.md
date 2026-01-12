@@ -105,8 +105,6 @@ sections:
 ########### Team
   - block: markdown
     content:
-#      title: ''
-#      text: "## Team {#team}"
       title: "## Meet the Team {#team}"
       text: |-
         Our group consists of postdocs, PhD students, master's students, and collaborators working on interdisciplinary projects in AI, quantum, and particle physics.
