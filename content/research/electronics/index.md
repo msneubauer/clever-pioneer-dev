@@ -12,9 +12,9 @@ tags:
   - Particle Physics
 ---
 
-## Trigger Electronics
+## <span style="color: Orange"><b>Trigger Electronics</b></span>
 
-### Trigger Electronics for the SNO Experiment
+### <span style="color: LightGreen"><b>Trigger Electronics for the SNO Experiment</b></span>
 
 The SNO trigger electronics was analog on the front-end (summed PMT pulses) and digital on the backend, as shown below.
 
@@ -26,7 +26,7 @@ As a graduate student on SNO and under the guidance of the legendary Penn HEP In
 
 To my knowledge, this is the first and last 12U VME board that fits into a 9U VME crate.
 
-### Fast Tracking Electronics
+### <span style="color: LightGreen"><b>Fast Tracking Electronics</b></span>
 
 Selecting interesting physics events with high efficiency while suppressing backgrounds from high-rate QCD processes is a challenging but important problem. Performing high-quality track reconstruction over the full detector at the beginning of the HLT is key to addressing this problem. The computational load on HLT increases as the luminosity and pile-up increase, requiring more sophisticated algorithms for background suppression.
 
@@ -38,7 +38,7 @@ Selecting interesting physics events with high efficiency while suppressing back
 
 **Phase-II Hardware Track Trigger**. We are also in the early stage of developing the processing firmware for a much larger system suitable for data taking during the high-luminosity LHC era. In order to accommodate the higher luminosity running without significantly increasing trigger thresholds with respect to the Run-I values, major upgrades to the trigger and DAQ systems are required.
 
-## Further Reading
+## <span style="color: Orange"><b>Further Reading</b></span>
 
 1. G. Aad, et al., "The FastTracker Real Time Processor and Its Impact on Muon Isolation, Tau and b-Jet Online Selections at ATLAS", IEEE Trans. Nucl. Sci. **59**, 348 (2012)  
    [http://atlasftk.uchicago.edu/documentation/docs/06140940.pdf](http://atlasftk.uchicago.edu/documentation/docs/06140940.pdf)

@@ -12,11 +12,11 @@ tags:
   - Particle Physics
 ---
 
-## Scientific Computing
+## <span style="color: Orange"><b>Scientific Computing</b></span>
 
 Advanced software and globally distributed computing play a crucial role in the success of large scientific projects, of which the LHC is the largest. My involvement for computing in particle physics began as a postdoc at MIT, where colleagues and I developed the CDF Analysis Facility [IEEE Trans. Nucl. Sci. **51**, 892 (2004)](http://inspirehep.net/record/665569/files/fermilab-conf-04-365.pdf). In my role as Deputy Software and Computing Manager for US ATLAS, I was responsible for managing a budget of $20M/year and 45 FTEs for U.S. computing facilities and core software activities. I was a co-PI for the NSF-funded [DASPOS Project](https://daspos.crc.nd.edu), which explores viable data, software, and analysis preservation strategies for high-energy physics and other science domains. In partnership with NCSA in 2010, I started the Tier-2 Computing Center at Illinois for LHC data processing. The Illinois Tier-2 Center now has ~5400 CPU cores and is an integral part of the largest LHC Tier-2 facility in the world [Midwest Tier-2](https://www.ci.uchicago.edu/research-centers/atlas-midwest-tier-2-center). Through allocations on the [Blue Waters Supercomputer](http://www.ncsa.illinois.edu/enabling/bluewaters), my graduate student Dewen Zhong and I have worked to apply machine learning techniques to the problem of boosted Higgs boson identification.
 
-### Software Institute for High-energy Physics
+### <span style="color: LightGreen"><b>Software Institute for High-energy Physics</b></span>
 
 ![Computing S2I2](Computing-S2I2.jpg)
 
@@ -28,7 +28,7 @@ Advanced software and globally distributed computing play a crucial role in the 
 
 The S2I2-HEP Conceptualization is now complete, with our [Strategic Plan](http://arxiv.org/abs/1712.06592) submitted to the NSF and a [Community White Paper](http://arxiv.org/abs/1712.06982) where I served on the Editorial Board and as convener of the Data Analysis and Interpretation (DAI) Working Group and Editor for the [DAI WG Report](http://arxiv.org/abs/1804.03983).
 
-## Further Reading
+## <span style="color: Orange"><b>Further Reading</b></span>
 
 1. T. Kim, et al., "The CDF Central Analysis Farm," IEEE Trans. Nucl. Sci. **51**, 892-896 (2004)  
    [fermilab-conf-04-365](http://inspirehep.net/record/665569/files/fermilab-conf-04-365.pdf)

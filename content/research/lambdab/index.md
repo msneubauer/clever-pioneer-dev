@@ -15,7 +15,7 @@ tags:
 
 [*Measurement of the $\Lambda_b$ Lifetime in $\Lambda_b \to J/\psi \Lambda^0$ at the CDF experiment*](https://arxiv.org/pdf/hep-ex/0609021.pdf)
 
-## Synopsis
+## <span style="color: Orange"><b>Synopsis</b></span>
 
 The weak decay of quarks depends on fundamental parameters of the Standard Model, including elements of the Cabibbo-Kobayashi-Maskawa (CKM) matrix which describe mixing between quark families. Extraction of these parameters from weak decays is complicated since observed quarks are not free but are confined within color-singlet hadrons, as described by quantum chromodynamics (QCD). An essential tool used in this extraction is the heavy quark expansion (HQE) technique. In HQE, the total decay width of a heavy hadron is expressed as an expansion in inverse powers of the heavy quark mass $m_q$. Lifetime ratios of $b$-flavored hadrons are predicted to be unity through O(1/$m_b$), and O(1/$m_b^2$) corrections are small (< 2%). Detailed analysis of O(1/$m_b^3$) corrections to the lifetime ratio lead to an expected value of $\tau(\Lambda_b)/\tau(B^0) \simeq 0.94$. By 2006, this theoretical prediction has been in poor agreement with measurements for more than a decade, with the world average being $\tau(\Lambda_b)/\tau(B^0) = 0.804 \pm 0.049$.
 
@@ -37,7 +37,7 @@ $$\tau(\Lambda_b)/\tau(B^0) = 1.041 \pm 0.057 \text{ (stat. + syst.)}$$
 
 At the time of publication of this result [PRL 98 (2007) 122001](https://arxiv.org/pdf/hep-ex/0609021.pdf), this was the single most precise measurement of $\tau(\Lambda_b)$ and higher than the previous world average by 3.2σ. Our measurement resolved the “Λ_b Lifetime Puzzle” in favor of earlier theory calculations of $\tau(\Lambda_b)$.
 
-## Further Reading
+## <span style="color: Orange"><b>Further Reading</b></span>
 
 1. {{< cite page="/publications/2007-lambdab-lifetime" >}}
 

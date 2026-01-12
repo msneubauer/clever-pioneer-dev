@@ -15,7 +15,7 @@ tags:
 
 [*Observation of WZ Production*](https://pdfs.semanticscholar.org/4b88/f5d19a9b2fc61f18fe90c876866a7e8d8fa4.pdf)
 
-## Synopsis
+## <span style="color: Orange"><b>Synopsis</b></span>
 
 The large $W$ and $Z$ boson production cross sections in $p\bar{p}$ collisions at the Fermilab Tevatron have been measured with high precision. The production of heavy vector boson pairs ($WW$, $WZ$, and $ZZ$) is far less common and can involve the triple gauge couplings (TGCs) between the bosons themselves via an intermediate virtual boson. Deviations of measured diboson production properties from Standard Model (SM) predictions could arise from new interactions or loop effects due to new particles at energy scales not directly accessible to a given experiment.
 
@@ -33,7 +33,7 @@ Using similar analysis techniques on the CDF experiment, we also made the **firs
 
 I have also authored two review articles on tests of electroweak physics [Rev. Mod. Phys. 84, 1477 (2012)](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.84.1477) and diboson physics at colliders [Ann. Rev. Nucl. Part. Sci. 61, 223 (2011)](https://www.annualreviews.org/doi/10.1146/annurev-nucl-102010-130106).
 
-## Further Reading
+## <span style="color: Orange"><b>Further Reading</b></span>
 
 1. {{< cite page="/publications/2007-wz-obs" >}}
 2. {{< cite page="/publications/2008-zz-obs" >}}
