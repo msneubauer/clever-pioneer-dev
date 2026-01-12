@@ -24,24 +24,36 @@ main:
     identifier: HsSA-kTsw
     url: /awards/
     weight: 50
+  - name: Vitae
+    identifier: leWy-AjU4
+    url: uploads/CV.pdf
+    weight: 60
   - name: Teaching
     identifier: kIoA-SMud
     url: /teaching/
-    weight: 60
+    weight: 70
 
   - name: Research
     identifier: research
     url: /research/
-    weight: 70
-  - name: Publications
+    weight: 80
+  - name: Particle Physics
     parent: research
-    url: /publications/
+    url: /research/#particle-physics
     weight: 10
-  - name: Projects
+  - name: Artifical Intelligence
     parent: research
     url: /research/#ai
     weight: 20
-  - name: Team
+  - name: Quantum
+    parent: research
+    url: /research/#quantum
+    weight: 30
+  - name: People
     parent: research
     url: /research/#team
-    weight: 30
+    weight: 40
+  - name: Publications
+    parent: research
+    url: /publications/
+    weight: 50

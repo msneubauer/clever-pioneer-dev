@@ -17,8 +17,8 @@ sections:
       text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Curriculum Vitae
-        url: /uploads/CV.pdf
+        text: Neubauer Lab
+        url: /research
       headings:
         about: 'About Me'
         education: ''
@@ -60,7 +60,7 @@ sections:
   - block: cta-button-list
     content:
       buttons:
-        - text: Read all about the Neubauer Group @ Illinois
+        - text: Read all about the Neubauer Lab
           url: /research/
     design:
       columns: "1"
