@@ -128,41 +128,39 @@ sections:
         color: "blue-50"
 
 ########### Blogs
-  - block: collection
-    content:
-      title: Featured Blogs
-      subtitle: ''
-      text: ''
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-        featured_only: true
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      view: article-grid
-      columns: 4
-      spacing:
-        padding: [0, 0, 0, 0]
-  - block: cta-button-list
-    content:
-      buttons:
-        - text: See all blogs
-          url: /blog/
-    design:
-      columns: "1"
-      padding: none
-      align: center
-      background:
-        color: "blue-50"
+#  - block: collection
+#    content:
+#      title: Featured Blogs
+#      subtitle: ''
+#      text: ''
+#      page_type: blog
+#      # Choose how many pages you would like to display (0 = all pages)
+#      count: 10
+#      filters:
+#        author: ''
+#        category: ''
+#        tag: ''
+#        exclude_featured: false
+#        exclude_future: false
+#        exclude_past: false
+#        publication_type: ''
+#        featured_only: true
+#      offset: 0
+#      order: desc
+#    design:
+#      view: article-grid
+#      columns: 4
+#      spacing:
+#        padding: [0, 0, 0, 0]
+#  - block: cta-button-list
+#    content:
+#      buttons:
+#        - text: See all blogs
+#          url: /blog/
+#    design:
+#      columns: "1"
+#      padding: none
+#      align: center
+#      background:
+#        color: "blue-50"
 ---

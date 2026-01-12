@@ -12,10 +12,10 @@ main:
     identifier: Ls8rDxWS
     url: /news/
     weight: 20  
-  - name: Blogs
-    identifier: E2rpTV48
-    url: /blog/
-    weight: 30
+#  - name: Blogs
+#    identifier: E2rpTV48
+#    url: /blog/
+#    weight: 30
   - name: Experience
     identifier: cvYrQHgF
     url: /experience/
