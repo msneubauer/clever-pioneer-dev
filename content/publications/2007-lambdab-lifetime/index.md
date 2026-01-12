@@ -7,7 +7,7 @@ title: Measurement of the $\Lambda^0_b$ Lifetime in $\Lambda^0_b \to J/\psi \Lam
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- A. Abulencia \em et al. [CDF Collaboration]
+- CDF Collaboration
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
