@@ -1,12 +1,16 @@
 <style>
 .mySwiper {
   width: 100%;
-  height: 500px;          /* ← adjust this to your desired height */
+  height: 500px;                /* adjust to your preferred height */
   margin: 2rem 0;
+  border-radius: 16px;          /* ← main rounded corners – match Chang Lab feel */
+  overflow: hidden;             /* ensures images don't poke out of rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);  /* subtle shadow for depth */
+  background: #13294B;          /* your Illini blue background */
 }
 
 .swiper-wrapper {
-  align-items: center;    /* vertical centering if needed */
+  /* no extra styling needed here */
 }
 
 .swiper-slide {
@@ -16,7 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #13294B;          /* ← your Illini blue theme background */
+  background: #13294B;          /* matches container bg, hides letterbox */
 }
 
 .swiper-slide img {
@@ -24,26 +28,30 @@
   max-height: 100%;
   width: auto;
   height: auto;
-  object-fit: contain;          /* keeps full image visible */
+  object-fit: contain;          /* full image visible, no cropping */
   object-position: center;
   display: block;
 }
 
-/* Optional: make arrows and pagination match your theme (Illini orange/blue) */
+/* Optional: softer inner shadow on slides for extra polish */
+.swiper-slide {
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.3); /* gentle vignette */
+}
+
+/* Make arrows and pagination match theme */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #FF5F05 !important;  /* Illini orange */
+  color: #FF5F05 !important;   /* Illini orange */
+  background: rgba(19, 41, 75, 0.6); /* semi-transparent blue bg */
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .swiper-pagination-bullet-active {
   background: #FF5F05 !important;
-}
-
-/* Hide arrows on mobile if desired */
-@media (max-width: 768px) {
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: none;
-  }
 }
 </style>
