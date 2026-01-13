@@ -1,0 +1,22 @@
+<script>
+  const swiper = new Swiper('.mySwiper', {
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    },
+    pagination: { el: '.swiper-pagination', clickable: true },
+    navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+    slidesPerView: 1,
+    spaceBetween: 0,
+    centeredSlides: true,
+    observer: true,
+    observeParents: true,
+  });
+
+  setTimeout(() => {
+    swiper.autoplay.start();
+    console.log('Swiper autoplay forced start');
+  }, 500);
+</script>

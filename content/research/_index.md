@@ -102,6 +102,29 @@ sections:
       show_read_more: false
       flip_back: false
 
+# New block: Custom carousel section
+  - block: markdown
+    content:
+      title: Research Highlights
+      text: |-
+        Here are some key visuals from ongoing projects.
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/uploads/slider/LHC.jpg" alt="LHC" loading="lazy"></div>
+            <div class="swiper-slide"><img src="/uploads/slider/Group2015_red.jpg" alt="Group 2015" loading="lazy"></div>
+            <div class="swiper-slide"><img src="/uploads/slider/Illinois-atlas-cern.jpg" alt="Illinois at CERN" loading="lazy"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+    design:
+      columns: '1'
+      spacing:
+        padding: ["2rem", "1rem", "2rem", "1rem"]
+      css_class: "text-center"
+
 ########### Team
   - block: markdown
     content:

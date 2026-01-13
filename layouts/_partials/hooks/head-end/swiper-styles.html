@@ -1,0 +1,49 @@
+<style>
+.mySwiper {
+  width: 100%;
+  height: 500px;          /* ← adjust this to your desired height */
+  margin: 2rem 0;
+}
+
+.swiper-wrapper {
+  align-items: center;    /* vertical centering if needed */
+}
+
+.swiper-slide {
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #13294B;          /* ← your Illini blue theme background */
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;          /* keeps full image visible */
+  object-position: center;
+  display: block;
+}
+
+/* Optional: make arrows and pagination match your theme (Illini orange/blue) */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #FF5F05 !important;  /* Illini orange */
+}
+
+.swiper-pagination-bullet-active {
+  background: #FF5F05 !important;
+}
+
+/* Hide arrows on mobile if desired */
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+</style>
